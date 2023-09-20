@@ -1,0 +1,7538 @@
+@font-face { 
+    font-family:Gotham;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Light___501537e6bdec998d611f5c9e12015528.otf);
+    font-weight:400;
+  } 
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+      line-height:1.15;
+    }  
+  @media screen and (min-width: 40em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 80em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 20em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 64em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  div { 
+      box-sizing: border-box;
+  } 
+  
+  .fle-fqm { 
+      display: -webkit-box; 
+      display: flex;
+  } 
+  
+  .w-mdd { 
+      width: 100%;
+  } 
+  
+  .item-kr3 { 
+      -webkit-box-align: center; 
+      align-items: center;
+  } 
+  
+  :not(img)  { 
+      width: 100%;
+  } 
+  
+  .justify-p5k { 
+      -webkit-box-pack: start; 
+      justify-content: flex-start;
+  } 
+  
+  body { 
+      margin: 0;
+  } 
+  
+  body { 
+      box-sizing: border-box;
+  } 
+  
+  body { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  body { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  body { 
+      font-size: 1rem;
+  } 
+  
+  @media screen and (min-width: 20em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 40em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 64em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 80em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  html { 
+      line-height: 1.15; 
+      -ms-text-size-adjust: 100%; 
+      -webkit-text-size-adjust: 100%;
+  } 
+  
+  html { 
+      box-sizing: border-box;
+  } 
+  
+  html { 
+      scroll-behavior: smooth;
+  } 
+  
+  .justify-sx8 { 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  .item-4wl { 
+      -webkit-box-align: start; 
+      align-items: flex-start;
+  } 
+  
+  .c-on-hmh { 
+      color: #3f3f40;
+  } 
+  
+  .bgpph { 
+      text-align: left;
+  } 
+  
+  .body-c5y { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  .body-c5y { 
+      font-size: 1rem;
+  } 
+  
+  p { 
+      box-sizing: border-box;
+  } 
+  
+  .lh-1qs { 
+      line-height: 1.5;
+  } 
+  
+  .header-7p2 { 
+      font-size: .6875rem; 
+      color: #000; 
+      margin: .4375rem 1rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .header-7p2 { 
+      font-size: .8125rem; 
+      margin: 1.0625rem 0 .75rem;
+    } 
+  }     
+  
+  .kkwdc { 
+      font-weight: 700;
+  } 
+  
+  
+  @font-face { 
+    font-family:Avenir;
+    font-weight:black;
+    font-style:normal;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/c48fb9df25b2ea39a17072514a688c91.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir;
+    font-weight:thin;
+    font-style:italic;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/d8489afbaad9e34b5e98d79aa8f4af87.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir;
+    font-weight:light;
+    font-style:normal;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/052898610741607c48126f10578dea59.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir;
+    font-weight:medium;
+    font-style:normal;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/318a4707b226411bd28aae1baf4c007c.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir;
+    font-weight:bold;
+    font-style:normal;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/5901e423d5d914e5558268060e13d17c.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir-Medium;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Medium___78b3d71c2942ccf9c410893bf7c00bf0.woff2),url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Medium___7d635ea94b4460e86cd678e9e754a643.ttf);
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:Gotham;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Light___501537e6bdec998d611f5c9e12015528.otf);
+    font-weight:400;
+  } 
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+      line-height:1.15;
+    }  
+  @media screen and (min-width: 40em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 80em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 20em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 64em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  div { 
+      box-sizing: border-box;
+  } 
+  
+  .fle-eyl { 
+      display: -webkit-box; 
+      display: flex;
+  } 
+  
+  .column-ts5 { 
+      -webkit-box-orient: vertical; 
+      flex-direction: column;
+  } 
+  
+  .column-ts5 { 
+      -webkit-box-direction: normal;
+  } 
+  
+  .w-4p3 { 
+      width: 100%;
+  } 
+  
+  .bg-wes { 
+      background-color: #fff;
+  } 
+  
+  body { 
+      margin: 0;
+  } 
+  
+  body { 
+      box-sizing: border-box;
+  } 
+  
+  body { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  body { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  body { 
+      font-size: 1rem;
+  } 
+  
+  @media screen and (min-width: 20em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 40em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 64em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 80em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  html { 
+      line-height: 1.15; 
+      -ms-text-size-adjust: 100%; 
+      -webkit-text-size-adjust: 100%;
+  } 
+  
+  html { 
+      box-sizing: border-box;
+  } 
+  
+  html { 
+      scroll-behavior: smooth;
+  } 
+  
+  .kjeao { 
+      padding-top: 0;
+  } 
+  
+  .cobey { 
+      margin-top: 0;
+  } 
+  
+  .ofbow { 
+      padding-bottom: 0;
+  } 
+  
+  .rjldq { 
+      margin-bottom: 0;
+  } 
+  
+  .item-mz5 { 
+      -webkit-box-align: stretch; 
+      align-items: stretch;
+  } 
+  
+  .justify-68c { 
+      -webkit-box-pack: start; 
+      justify-content: flex-start;
+  } 
+  
+  .dynml { 
+      padding-right: 0;
+  } 
+  
+  .header-coh :nth-child(n)  { 
+      align-items: center;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .header-coh :nth-child(n)  { 
+      align-self: center;
+    } 
+  }     
+  
+  .header-coh :nth-child(2)  { 
+      margin: auto; 
+      position: sticky; 
+      left: 50%; 
+      transform: translate(-50%);
+  } 
+  
+  .bg-l19 { 
+      background-color: transparent;
+  } 
+  
+  .cfnmo { 
+      border-width: 0;
+  } 
+  
+  .gipsp { 
+      padding: 0;
+  } 
+  
+  .ltltb { 
+      display: inline-block;
+  } 
+  
+  .modal-beb { 
+      outline: none;
+  } 
+  
+  a { 
+      background-color: transparent; 
+      -webkit-text-decoration-skip: objects;
+  } 
+  
+  a { 
+      box-sizing: border-box;
+  } 
+  
+  a { 
+      text-decoration: none;
+  } 
+  
+  .ijycq { 
+      padding-left: 0;
+  } 
+  
+  .drwqd { 
+      margin-left: 0;
+  } 
+  
+  .ixdhj { 
+      margin-right: 0;
+  } 
+  
+  .h-fos { 
+      height: 100%;
+  } 
+  
+  .item-l8e { 
+      -webkit-box-align: start; 
+      align-items: flex-start;
+  } 
+  
+  .c-on-sf9 { 
+      color: #3f3f40;
+  } 
+  
+  .imyln { 
+      text-align: left;
+  } 
+  
+  .body-qox { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  .body-qox { 
+      font-size: 1rem;
+  } 
+  
+  .container-fk5 { 
+      margin-left: 4.8125rem;
+  } 
+  
+  .lwwri { 
+      padding-top: .75rem; 
+      padding-bottom: .75rem;
+  } 
+  
+  .wkkdc { 
+      padding-left: 1.5rem; 
+      padding-right: 1.5rem;
+  } 
+  
+  .vtex-store-components-3-x-2t8 { 
+      max-width: 150px; 
+      max-height: 75px; 
+      min-width: 120px;
+  } 
+  
+  .logo-eir { 
+      padding: 0;
+  } 
+  
+  img { 
+      border-style: none;
+  } 
+  
+  img { 
+      max-width: 100%;
+  } 
+  
+  .logo-b2p { 
+      padding: 10px 0; 
+      width: 9.625rem; 
+      max-width: 38vw; 
+      aspect-ratio: auto;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .logo-b2p { 
+      padding: 1.6875rem 0; 
+      width: 16.375rem; 
+      height: 2.8125rem;
+    } 
+  }     
+  
+  p { 
+      box-sizing: border-box;
+  } 
+  
+  .lh-x6l { 
+      line-height: 1.5;
+  } 
+  
+  .link-7mh { 
+      font-size: .8125rem; 
+      font-weight: 500; 
+      color: #fff; 
+      margin: 0; 
+      border-radius: 3.125rem; 
+      background-color: #169eac;
+  } 
+  
+  .header-vws { 
+      column-gap: .25rem;
+  } 
+  
+  .link-1f6 { 
+      display: flex; 
+      justify-content: center; 
+      color: #fff; 
+      padding: 0 1.125rem;
+  } 
+  
+  .link-1f6:before { 
+      content: ""; 
+      background-image: url(https://devlyn.vtexassets.com/arquivos/Agenda-tu-cita_blanco.png); 
+      background-size: contain; 
+      display: block; 
+      height: 2.8125rem; 
+      width: 2.8125rem; 
+      margin-right: .4375rem;
+  } 
+  
+  .header-vws :nth-child(2)  { 
+      position: static; 
+      transform: none; 
+      left: auto; 
+      margin: 0;
+  } 
+  
+  .gmlvr { 
+      font-weight: 700;
+  } 
+  
+  [hidden] { 
+      display: none;
+  } 
+  
+  .content-ay1 { 
+      align-self: center; 
+      margin: 0;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .content-yw2 { 
+      width: 0!important; 
+      display: block!important; 
+      -webkit-transition: width .5s linear; 
+      -moz-transition: width .5s linear; 
+      -ms-transition: width .5s linear; 
+      -o-transition: width .5s linear; 
+      transition: width .5s linear;
+    } 
+  }     
+  
+  .search-ioo { 
+      align-self: center; 
+      margin: 0 1rem 0 0; 
+      padding: .375rem .875rem; 
+      border-right: 1px solid #000; 
+      cursor: pointer;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .search-ioo { 
+      margin: 0 1rem 0 0;
+    } 
+  }     
+  
+  .search-ioo:hover { 
+      background-color: #dbe9fd; 
+      border-radius: 3.125rem 0 0 3.125rem;
+  } 
+  
+  .item-6or { 
+      -webkit-box-align: center; 
+      align-items: center;
+  } 
+  
+  .odrih { 
+      _display: inline;
+  } 
+  
+  .odrih { 
+      float: right;
+  } 
+  
+  aside { 
+      display: block;
+  } 
+  
+  aside { 
+      box-sizing: border-box;
+  } 
+  
+  .rel-94i { 
+      position: relative;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .vtex-minicart-2-x-xwj { 
+      margin-right: 5.125rem;
+    } 
+  }     
+  
+  .neror { 
+      max-width: 48rem;
+  } 
+  
+  .search-6k6 { 
+      padding-top: 0;
+  } 
+  
+  @media only screen and (min-width: 1260px){ 
+    .search-6k6 { 
+      padding-right: 20px; 
+      padding-bottom: 8%;
+    } 
+  }     
+  
+  .search-6k6 { 
+      padding: 0;
+  } 
+  
+  svg:not(:root) { 
+      overflow: hidden;
+  } 
+  
+  .header-2or { 
+      vertical-align: middle; 
+      width: 1.5625rem; 
+      height: 1.5625rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .header-2or { 
+      width: 2.8125rem; 
+      height: 2.8125rem;
+    } 
+  }     
+  
+  .image-wa3 { 
+      max-height: unset!important;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .header-2or:hover { 
+      background-color: #dbe9fd; 
+      border-radius: .25rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 40em){ 
+    .relative-bld { 
+      position: relative;
+    } 
+  }     
+  
+  button { 
+      font-family: sans-serif; 
+      font-size: 100%; 
+      line-height: 1.15; 
+      margin: 0;
+  } 
+  
+  button { 
+      overflow: visible;
+  } 
+  
+  button { 
+      text-transform: none;
+  } 
+  
+  button { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  button { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  .tvmew { 
+      border-style: solid; 
+      border-width: 1px;
+  } 
+  
+  .b--ea5 { 
+      border-color: transparent;
+  } 
+  
+  .fjroq { 
+      border-radius: .25rem;
+  } 
+  
+  .ayvpk { 
+      border-width: .125rem;
+  } 
+  
+  .min-h-n61 { 
+      min-height: 2.5rem; 
+      box-sizing: border-box;
+  } 
+  
+  .c-action-fdo { 
+      color: #00a2b0;
+  } 
+  
+  .lh-eqo { 
+      line-height: 1;
+  } 
+  
+  .v-t8e { 
+      vertical-align: middle;
+  } 
+  
+  .t-xof { 
+      font-size: 1rem;
+  } 
+  
+  .t-xof { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 500; 
+      text-transform: uppercase; 
+      letter-spacing: 0;
+  } 
+  
+  .tearc { 
+      font-weight: 500;
+  } 
+  
+  button,[type="button"]  { 
+      -webkit-appearance: button;
+  } 
+  
+  .hover-b--fcy:hover { 
+      border-color: transparent;
+  } 
+  
+  .hover-bg-action-48v:hover { 
+      background-color: #dbe9fd;
+  } 
+  
+  .hover-b--action-o5z:hover { 
+      border-color: #dbe9fd;
+  } 
+  
+  .poi-ym6:hover { 
+      cursor: pointer;
+  } 
+  
+  .qeooe { 
+      padding: .75rem;
+  } 
+  
+  .vtex-minicart-2-x-3rl { 
+      padding: 0 .3125rem 0 0;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .vtex-minicart-2-x-3rl { 
+      padding: 0;
+    } 
+  }     
+  
+  .justify-sx6 { 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .container-gjh .button-53r  { 
+      padding: 0; 
+      height: 2.8125rem; 
+      width: 2.8125rem;
+    } 
+  
+    .container-gjh .button-53r::before { 
+      content: ""; 
+      background-image: url(https://devlyn.vtexassets.com/arquivos/Registro_usuario.png); 
+      background-size: cover; 
+      display: block; 
+      height: 2.8125rem; 
+      width: 2.8125rem;
+    } 
+  }     
+  
+  .vtex-minicart-2-x-wiy .button-8c6  { 
+      margin: 0;
+  } 
+  
+  .hbqjq { 
+      margin-left: -.25rem;
+  } 
+  
+  .wtklh { 
+      padding-left: .75rem; 
+      padding-right: .75rem;
+  } 
+  
+  .vtex-minicart-2-x-wiy .button-53r  { 
+      padding: 0!important;
+  } 
+  
+  .vtex-minicart-2-x-wiy .button-8c6 .button-53r  { 
+      padding-left: 1px;
+  } 
+  
+  .gra-d2b { 
+      color: #979899;
+  } 
+  
+  .vtex-minicart-2-x-yis:after { 
+      content: ""; 
+      background-image: url(https://devlyn.vtexassets.com/arquivos/header-carrito.png); 
+      background-size: cover; 
+      display: block; 
+      width: 24px; 
+      height: 24px;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .vtex-minicart-2-x-yis:after { 
+      width: 2.8125rem; 
+      height: 2.8125rem;
+    } 
+  }     
+  
+  .b--muted-itm { 
+      border-color: #e3e4e6;
+  } 
+  
+  .b--31i { 
+      border-style: solid;
+  } 
+  
+  .row-frf { 
+      -webkit-box-direction: normal;
+  } 
+  
+  .row-frf { 
+      -webkit-box-orient: horizontal; 
+      flex-direction: row;
+  } 
+  
+  .h-6mj { 
+      height: 3rem; 
+      box-sizing: border-box;
+  } 
+  
+  .overflow-3o1 { 
+      overflow: hidden;
+  } 
+  
+  .search-6k6 .input-r7l  { 
+      height: 38px;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .content-yw2 .input-r7l  { 
+      border: 0!important;
+    } 
+  
+    .search-f3p .input-r7l  { 
+      border-radius: 3.125rem 0 0 3.125rem; 
+      border: .0625rem solid #dadada; 
+      border-right: 0;
+    } 
+  }     
+  
+  @media screen and (min-width: 1025px){ 
+    .search-f3p .input-r7l  { 
+      margin-top: 0;
+    } 
+  }     
+  
+  .hover-b--muted-me7:hover { 
+      border-color: #cacbcc;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .search-f3p .input-r7l:hover { 
+      border-color: #e3e4e6;
+    } 
+  }     
+  
+  .irfeq { 
+      padding-top: .25rem; 
+      padding-bottom: .25rem;
+  } 
+  
+  .vtex-store-icons-0-x-cartIcon { 
+      display: none;
+  } 
+  
+  input { 
+      font-family: sans-serif; 
+      font-size: 100%; 
+      line-height: 1.15; 
+      margin: 0;
+  } 
+  
+  input { 
+      overflow: visible;
+  } 
+  
+  input { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  input { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  .jhdbj { 
+      border-style: none; 
+      border-width: 0;
+  } 
+  
+  .br--c95 { 
+      border-top-right-radius: 0; 
+      border-bottom-right-radius: 0;
+  } 
+  
+  .br-6ld { 
+      border-right-width: 0;
+  } 
+  
+  .giqwk { 
+      margin: 0;
+  } 
+  
+  .aevgi { 
+      padding-left: 1rem;
+  } 
+  
+  .outline-ooe { 
+      outline: 0;
+  } 
+  
+  .vtex-styleguide-9-x-xr8 { 
+      -webkit-appearance: none; 
+      -moz-appearance: none; 
+      appearance: none;
+  } 
+  
+  .vtex-styleguide-9-x-8c3 { 
+      font-family: Avenir-Medium; 
+      font-size: 16px;
+  } 
+  
+  .box-3x8,input[type="text"] { 
+      box-sizing: border-box;
+  } 
+  
+  .search-6k6 input  { 
+      color: #727273; 
+      border-radius: 1px;
+  } 
+  
+  .search-f3p .input-iio  { 
+      font-family: Avenir-Medium; 
+      text-align: center; 
+      padding-left: 0;
+  } 
+  
+  .search-rjm .input-iio  { 
+      font-size: .875rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .search-rjm .input-iio  { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  .br--64k { 
+      border-bottom-left-radius: 0;
+  } 
+  
+  .br--64k { 
+      border-top-left-radius: 0;
+  } 
+  
+  .bl-6o2 { 
+      border-left-width: 0;
+  } 
+  
+  .rotdm { 
+      padding-left: .75rem;
+  } 
+  
+  .yanmw { 
+      padding-right: 1rem;
+  } 
+  
+  .c-muted-zwc { 
+      color: #979899;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .search-f3p .input-oz2  { 
+      display: none;
+    } 
+  }     
+  
+  button { 
+      -webkit-appearance: button;
+  } 
+  
+  .mbpbc { 
+      padding-top: 0; 
+      padding-bottom: 0;
+  } 
+  
+  .cswgi { 
+      padding-right: .5rem;
+  } 
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-vMDjW.style-vMDjW {  
+     width: auto;  
+      height: 1px;  
+      margin-top: -1px;  
+  }  
+  #style-lJ7Ek.style-lJ7Ek {  
+     padding-top:.25em;  
+     padding-bottom:.32em;  
+  }  
+  #style-XXqV2.style-XXqV2 {  
+     padding-top:.25em;  
+     padding-bottom:.32em;  
+  }  
+
+  
+  @font-face { 
+    font-family:Gotham;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Light___501537e6bdec998d611f5c9e12015528.otf);
+    font-weight:400;
+  } 
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+      line-height:1.15;
+    }  
+  @media screen and (min-width: 20em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 40em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 64em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 80em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  div { 
+      box-sizing: border-box;
+  } 
+  
+  .fle-tqc { 
+      display: -webkit-box; 
+      display: flex;
+  } 
+  
+  .column-8rj { 
+      -webkit-box-orient: vertical; 
+      flex-direction: column;
+  } 
+  
+  .column-8rj { 
+      -webkit-box-direction: normal;
+  } 
+  
+  .w-vo3 { 
+      width: 100%;
+  } 
+  
+  .bg-jpa { 
+      background-color: #fff;
+  } 
+  
+  body { 
+      margin: 0;
+  } 
+  
+  body { 
+      box-sizing: border-box;
+  } 
+  
+  body { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  body { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  body { 
+      font-size: 1rem;
+  } 
+  
+  @media screen and (min-width: 20em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 40em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 64em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 80em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  html { 
+      line-height: 1.15; 
+      -ms-text-size-adjust: 100%; 
+      -webkit-text-size-adjust: 100%;
+  } 
+  
+  html { 
+      box-sizing: border-box;
+  } 
+  
+  html { 
+      scroll-behavior: smooth;
+  } 
+  
+  section { 
+      display: block;
+  } 
+  
+  section { 
+      box-sizing: border-box;
+  } 
+  
+  .qyvgc { 
+      padding-left: .5rem; 
+      padding-right: .5rem;
+  } 
+  
+  .grpol { 
+      max-width: 96rem;
+  } 
+  
+  .cen-1wc { 
+      margin-left: auto;
+  } 
+  
+  .cen-1wc { 
+      margin-right: auto;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .ph5-xbb { 
+      padding-left: 1rem; 
+      padding-right: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 80em){ 
+    .ph2-s9d { 
+      padding-left: .25rem; 
+      padding-right: .25rem;
+    } 
+  }     
+  
+  .container-rc8  { 
+      max-width: 120rem; 
+      padding: 0;
+  } 
+  
+  .iawel { 
+      padding-top: 0;
+  } 
+  
+  .yssxj { 
+      margin-top: 0;
+  } 
+  
+  .sskfl { 
+      padding-bottom: 0;
+  } 
+  
+  .prrmt { 
+      margin-bottom: 0;
+  } 
+  
+  .item-4jf { 
+      -webkit-box-align: stretch; 
+      align-items: stretch;
+  } 
+  
+  .justify-hy3 { 
+      -webkit-box-pack: start; 
+      justify-content: flex-start;
+  } 
+  
+  .header-71j { 
+      place-content: center; 
+      margin-bottom: 2.875rem; 
+      column-gap: 45px;
+  } 
+  
+  .odiky { 
+      padding-right: 0;
+  } 
+  
+  li { 
+      box-sizing: border-box;
+  } 
+  
+  .list-w9w { 
+      list-style-type: none;
+  } 
+  
+  .toolr { 
+      margin-left: 1.5rem; 
+      margin-right: 1.5rem;
+  } 
+  
+  .navbar-ajo { 
+      margin: 0;
+  } 
+  
+  .rel-vp6 { 
+      position: relative;
+  } 
+  
+  .menu-d2t { 
+      position: static; 
+      width: 100%; 
+      margin: 0;
+  } 
+  
+  a { 
+      background-color: transparent; 
+      -webkit-text-decoration-skip: objects;
+  } 
+  
+  a { 
+      box-sizing: border-box;
+  } 
+  
+  a { 
+      text-decoration: none;
+  } 
+  
+  .c-on-p8q { 
+      color: #3f3f40;
+  } 
+  
+  .no-zy1 { 
+      text-decoration: none;
+  } 
+  
+  .poi-o85:hover { 
+      cursor: pointer;
+  } 
+  
+  .piila { 
+      border-bottom-style: solid; 
+      border-bottom-width: 1px;
+  } 
+  
+  .b--muted-6d1 { 
+      border-color: #cacbcc;
+  } 
+  
+  .cbyoi { 
+      border-width: .125rem;
+  } 
+  
+  .wgcwd { 
+      padding-top: .75rem;
+  } 
+  
+  .bwmry { 
+      padding-bottom: .75rem;
+  } 
+  
+  .left-mvm { 
+      left: 0;
+  } 
+  
+  .lkyxn { 
+      display: none;
+  } 
+  
+  .abs-f1k { 
+      position: absolute;
+  } 
+  
+  .z-ozx { 
+      z-index: 2;
+  } 
+  
+  .navbar-98s { 
+      background: hsla(0,0%,100%,.8); 
+      backdrop-filter: blur(12.2px); 
+      -webkit-backdrop-filter: blur(12.2px); 
+      border: 0; 
+      box-shadow: 1.95px 1.95px 2.6px rgba(0,0,0,.15); 
+      padding-top: 2.4375rem;
+  } 
+  
+  .justify-sfz { 
+      -webkit-box-pack: justify; 
+      justify-content: space-between;
+  } 
+  
+  .now-by4 { 
+      white-space: nowrap;
+  } 
+  
+  .navbar-okh { 
+      font-size: 13px; 
+      text-transform: uppercase; 
+      color: #000;
+  } 
+  
+  .justify-atc { 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  .vpmiv { 
+      padding-left: 0;
+  } 
+  
+  .vgolh { 
+      margin-left: 0;
+  } 
+  
+  .gklfg { 
+      margin-right: 0;
+  } 
+  
+  .h-yyr { 
+      height: 100%;
+  } 
+  
+  nav { 
+      display: block;
+  } 
+  
+  nav { 
+      box-sizing: border-box;
+  } 
+  
+  .menu-b51 { 
+      display: flex;
+  } 
+  
+  .menu-b51 { 
+      width: 100%;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .menu-b51 { 
+      width: auto;
+    } 
+  }     
+  
+  .navbar-lzl { 
+      width: auto;
+  } 
+  
+  .content-w3p { 
+      padding: 0 9.375%;
+  } 
+  
+  ul { 
+      box-sizing: border-box;
+  } 
+  
+  .pprvo { 
+      margin-top: 0; 
+      margin-bottom: 0;
+  } 
+  
+  .menu-fhq { 
+      width: 100%;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .menu-fhq { 
+      width: auto;
+    } 
+  }     
+  
+  img { 
+      border-style: none;
+  } 
+  
+  img { 
+      max-width: 100%;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .navbar-q6t { 
+      width: 16.625rem; 
+      padding-left: 4.25rem; 
+      border-left: .0625rem solid #cacaca; 
+      margin-left: 4.25rem;
+    } 
+  }     
+  
+  .image-wq5 { 
+      max-height: unset!important;
+  } 
+  
+  .vtex-render-runtime-8-x-4d3.laz-8no { 
+      opacity: 0;
+  } 
+  
+  .item-5va { 
+      -webkit-box-align: start; 
+      align-items: flex-start;
+  } 
+  
+  .mxrto { 
+      text-align: left;
+  } 
+  
+  .body-t1q { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  .body-t1q { 
+      font-size: 1rem;
+  } 
+  
+  .item-iqz { 
+      -webkit-box-align: center; 
+      align-items: center;
+  } 
+  
+  .vtex-flex-layout-0-x-4o3 { 
+      justify-content: center;
+  } 
+  
+  .container-zoh { 
+      justify-content: center;
+  } 
+  
+  .content-tp4 { 
+      place-content: center;
+  } 
+  
+  .overflow-167 { 
+      overflow: hidden;
+  } 
+  
+  button { 
+      font-family: sans-serif; 
+      font-size: 100%; 
+      line-height: 1.15; 
+      margin: 0;
+  } 
+  
+  button { 
+      overflow: visible;
+  } 
+  
+  button { 
+      text-transform: none;
+  } 
+  
+  button { 
+      -webkit-appearance: button;
+  } 
+  
+  button { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  button { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  .bwsee { 
+      border-style: none; 
+      border-width: 0;
+  } 
+  
+  .kjdhf { 
+      margin: .25rem;
+  } 
+  
+  .outline-5e1 { 
+      outline: 0;
+  } 
+  
+  .right-vel { 
+      right: 0;
+  } 
+  
+  .ojtyc { 
+      padding-top: .25rem; 
+      padding-bottom: .25rem;
+  } 
+  
+  .navbar-mif { 
+      margin: 0;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .navbar-mif { 
+      margin: 0 1.5rem;
+    } 
+  }     
+  
+  .vtex-flex-layout-0-x-4o3 > :not(img)  { 
+      width: 100%;
+  } 
+  
+  p { 
+      box-sizing: border-box;
+  } 
+  
+  .lh-njj { 
+      line-height: 1.5;
+  } 
+  
+  .content-o3p { 
+      font-size: .75rem; 
+      font-weight: 700; 
+      color: #000; 
+      text-transform: uppercase; 
+      margin: 3.125rem 0 0;
+  } 
+  
+  .lfarj { 
+      padding: 0;
+  } 
+  
+  .roxcv { 
+      margin: 0;
+  } 
+  
+  .justify-cko { 
+      justify-content: space-around;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .content-m9c { 
+      column-gap: 1.875rem;
+    } 
+  }     
+  
+  svg:not(:root) { 
+      overflow: hidden;
+  } 
+  
+  slide-1qy
+  .navbar-fjz { 
+      font-size: .6875rem; 
+      color: #000; 
+      padding-left: 4.25rem; 
+      border-left: .0625rem solid transparent; 
+      margin: .25rem 0 0 4.25rem;
+  } 
+  
+  .navbar-fbw { 
+      font-size: .7813rem; 
+      color: #000; 
+      white-space: normal;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .navbar-fbw { 
+      font-size: .6875rem; 
+      color: #000;
+    } 
+  }     
+  
+  .navbar-x6a:first-child .navbar-fbw  { 
+      display: none;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .navbar-x6a:first-child .navbar-fbw  { 
+      font-size: .75rem; 
+      font-weight: 700; 
+      color: #000; 
+      text-transform: uppercase; 
+      padding-bottom: .625rem; 
+      display: block;
+    } 
+  }     
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-fy4Qa.style-fy4Qa {  
+     transform:translate3d(0%, 0, 0);  
+     width:100%;  
+  }  
+  #style-ASQP5.style-ASQP5 {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-DzKGF.style-DzKGF {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-lImYA.style-lImYA {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-stego.style-stego {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-wQcyB.style-wQcyB {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-eFnpY.style-eFnpY {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-2MzyI.style-2MzyI {  
+     transform:translate3d(0%, 0, 0);  
+     width:100%;  
+  }  
+  #style-L1szo.style-L1szo {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-grMxF.style-grMxF {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-38BqF.style-38BqF {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-WmDiD.style-WmDiD {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-Y51YE.style-Y51YE {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-8eTZ3.style-8eTZ3 {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-LxFRZ.style-LxFRZ {  
+     transform:translate3d(0%, 0, 0);  
+     width:100%;  
+  }  
+  #style-25ozj.style-25ozj {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-fiPfw.style-fiPfw {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-ICLYy.style-ICLYy {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-PO2mP.style-PO2mP {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-EzN8o.style-EzN8o {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-bMpAG.style-bMpAG {  
+     transform:translate3d(0%, 0, 0);  
+     width:120%;  
+  }  
+  #style-6EmnR.style-6EmnR {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-UJkAc.style-UJkAc {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-kjd42.style-kjd42 {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-rK5VO.style-rK5VO {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  #style-763HV.style-763HV {  
+     max-height:420px;  
+     width:100%;  
+  }  
+
+  
+  @media only screen and (min-width: 64em){ 
+    .slide-1qy { 
+      padding: 0 3.25rem;
+    } 
+  }     
+  
+  img { 
+      border-style: none;
+  } 
+  
+  img { 
+      max-width: 92%;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .slide-48e { 
+      border-radius: 1.875rem;
+    } 
+  }     
+  
+  .image-ve4 { 
+      max-height: unset!important;
+  } 
+
+  @font-face { 
+    font-family:Gotham;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Light___501537e6bdec998d611f5c9e12015528.otf);
+    font-weight:400;
+  } 
+  @font-face { 
+    font-family:Gotham-Bold;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Bold___5d6f50ed2dde0e4ad455448f896c09f0.otf);
+    font-weight:400;
+  } 
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+      line-height:1.15;
+    }  
+  @media screen and (min-width: 40em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 80em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 20em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 64em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  div { 
+      box-sizing: border-box;
+  } 
+  
+  .fle-3bk { 
+      display: -webkit-box; 
+      display: flex;
+  } 
+  
+  .item-spz { 
+      -webkit-box-align: center; 
+      align-items: center;
+  } 
+  
+  .justify-4n5 { 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  .w-nar { 
+      width: 100%;
+  } 
+  
+  .rel-ybj { 
+      position: relative;
+  } 
+  
+  .tnogg { 
+      padding: 0;
+  } 
+  
+  .synjq { 
+      margin: 0;
+  } 
+  
+  .justify-621 { 
+      justify-content: space-around;
+  } 
+  
+  .overflow-wh8 { 
+      overflow: hidden;
+  } 
+  
+  section { 
+      display: block;
+  } 
+  
+  section { 
+      box-sizing: border-box;
+  } 
+  
+  .vtex-flex-layout-0-x-d5z > :not(img)  { 
+      width: 100%;
+  } 
+  
+  .koicc { 
+      padding-right: 0;
+  } 
+  
+  .item-lx5 { 
+      -webkit-box-align: stretch; 
+      align-items: stretch;
+  } 
+  
+  .vtex-flex-layout-0-x-d5z { 
+      justify-content: center;
+  } 
+  
+  .lcoit { 
+      padding-top: 0;
+  } 
+  
+  .wqdbl { 
+      margin-top: 0;
+  } 
+  
+  .klvmx { 
+      padding-bottom: 0;
+  } 
+  
+  .tvals { 
+      margin-bottom: 0;
+  } 
+  
+  .justify-h9q { 
+      -webkit-box-pack: start; 
+      justify-content: flex-start;
+  } 
+  
+  .gkxoo { 
+      padding-left: .5rem; 
+      padding-right: .5rem;
+  } 
+  
+  .willx { 
+      max-width: 96rem;
+  } 
+  
+  .cen-f3t { 
+      margin-left: auto;
+  } 
+  
+  .cen-f3t { 
+      margin-right: auto;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .ph5-1p1 { 
+      padding-left: 1rem; 
+      padding-right: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 80em){ 
+    .ph2-ozc { 
+      padding-left: .25rem; 
+      padding-right: .25rem;
+    } 
+  }     
+  
+  .vtex-flex-layout-0-x-flexRow--3qa .container-pnj  { 
+      padding: 0; 
+      max-width: 1920px;
+  } 
+  
+  .column-kcl { 
+      -webkit-box-orient: vertical; 
+      flex-direction: column;
+  } 
+  
+  .column-kcl { 
+      -webkit-box-direction: normal;
+  } 
+  
+  body { 
+      margin: 0;
+  } 
+  
+  body { 
+      box-sizing: border-box;
+  } 
+  
+  body { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  body { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  body { 
+      font-size: 1rem;
+  } 
+  
+  @media screen and (min-width: 20em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 40em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 64em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 80em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  html { 
+      line-height: 1.15; 
+      -ms-text-size-adjust: 100%; 
+      -webkit-text-size-adjust: 100%;
+  } 
+  
+  html { 
+      box-sizing: border-box;
+  } 
+  
+  html { 
+      scroll-behavior: smooth;
+  } 
+  
+  a { 
+      background-color: transparent; 
+      -webkit-text-decoration-skip: objects;
+  } 
+  
+  a { 
+      box-sizing: border-box;
+  } 
+  
+  a { 
+      text-decoration: none;
+  } 
+  
+  img { 
+      border-style: none;
+  } 
+  
+  .image-mdd { 
+      max-height: unset!important;
+  } 
+  
+  .vtex-flex-layout-0-x-flexRow--featured-iha { 
+      margin: 1.5rem 0;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .vtex-flex-layout-0-x-flexRow--featured-iha { 
+      margin: 1.5rem 0 0;
+    } 
+  }     
+  
+  .xjtds { 
+      padding-left: 0;
+  } 
+  
+  .xqomw { 
+      margin-left: 0;
+  } 
+  
+  .krmlv { 
+      margin-right: 0;
+  } 
+  
+  .h-4yq { 
+      height: 100%;
+  } 
+  
+  .c-on-hrs { 
+      color: #3f3f40;
+  } 
+  
+  .kxcbs { 
+      text-align: center;
+  } 
+  
+  .body-def { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  .body-def { 
+      font-size: 1rem;
+  } 
+  
+  .slide-o3k { 
+      margin: 1.25rem 0;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .col-xwy { 
+      padding: 0 8.2813rem;
+    } 
+  }     
+  
+  p { 
+      box-sizing: border-box;
+  } 
+  
+  .lh-p9z { 
+      line-height: 1.5;
+  } 
+  
+  .text-vj7 { 
+      font-size: 18px; 
+      font-weight: 300; 
+      color: #3a3a3a; 
+      line-height: normal; 
+      letter-spacing: normal;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .text-vj7 { 
+      font-size: 30px;
+    } 
+  }     
+  
+  .jpksf { 
+      font-weight: 700;
+  } 
+  
+  .vtex-flex-layout-0-x-flexRow--3qa .text-zo2  { 
+      font-family: Gotham-Bold,Gotham;
+  } 
+  
+  .col-aa2 { 
+      align-self: center; 
+      max-width: 14rem;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .col-aa2 { 
+      max-width: unset;
+    } 
+  }     
+  
+  .col-35j { 
+      align-self: center; 
+      max-width: 14rem;
+  } 
+  
+  .col-35j { 
+      border-top: .1rem solid #2b2b2b; 
+      border-bottom: .1rem solid #2b2b2b; 
+      padding: 1.25rem 0; 
+      margin: 1.25rem 0;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .col-35j { 
+      max-width: unset;
+    } 
+  
+    .col-35j { 
+      border-top: 0; 
+      border-bottom: 0; 
+      padding: 0; 
+      margin: 0;
+    } 
+  
+    .col-35j:after { 
+      content: ""; 
+      position: absolute; 
+      height: 185px; 
+      border-left: 3.2px solid #2b2b2b;
+    } 
+  }     
+  
+  .col-79b { 
+      align-self: center; 
+      max-width: 14rem;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .col-79b { 
+      max-width: unset;
+    } 
+  
+    .col-79b:after { 
+      content: ""; 
+      position: absolute; 
+      height: 185px; 
+      border-right: 3.2px solid #2b2b2b;
+    } 
+  }     
+  
+  .col-b6v { 
+      align-self: center;
+  } 
+  
+  .col-2ht { 
+      align-self: center;
+  } 
+  
+  .col-mk5 { 
+      align-self: center;
+  } 
+  
+  .slide-6si { 
+      padding: 0 1rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .slide-6si { 
+      padding: 0 8.375rem;
+    } 
+  }     
+  
+  .image-o84 { 
+      max-height: 107px;
+  } 
+  
+  .container-eo9 { 
+      margin-bottom: .4375rem;
+  } 
+  
+  .slide-op5 { 
+      border-radius: .9375rem;
+  } 
+  
+  .wrapper-4od { 
+      margin-bottom: .4375rem;
+  } 
+  
+  .title-q5w { 
+      margin: 0;
+  } 
+  
+  .title-q5w { 
+      font-size: 18px; 
+      font-weight: 300; 
+      color: #3a3a3a; 
+      line-height: normal; 
+      letter-spacing: normal;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .title-q5w { 
+      font-size: 22px; 
+      font-weight: 300;
+    } 
+  }     
+  
+  .text-pds { 
+      margin: 0;
+  } 
+  
+  .text-pds { 
+      font-size: 12px; 
+      font-weight: 400; 
+      color: #278a98; 
+      line-height: normal; 
+      letter-spacing: normal;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .text-pds { 
+      font-size: 14px; 
+      color: #458795;
+    } 
+  }     
+  
+  .button-pap { 
+      margin: 0;
+  } 
+  
+  .text-aj1 { 
+      font-size: 19px; 
+      font-family: Gotham-Bold,Gotham; 
+      color: #278a98; 
+      line-height: normal; 
+      letter-spacing: normal; 
+      margin-left: .1875rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .text-aj1 { 
+      font-size: 21px; 
+      color: #458795;
+    } 
+  }     
+  
+  .button-h48 { 
+      font-size: 12px; 
+      font-weight: 300; 
+      color: #128180; 
+      line-height: normal; 
+      letter-spacing: normal; 
+      text-decoration: none; 
+      padding: .375rem 1.125rem .3125rem; 
+      border-radius: 6.25rem; 
+      border: 2.1px solid #278a98;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .button-h48 { 
+      font-size: 14px; 
+      font-weight: 300; 
+      color: #3a8080; 
+      padding: .4375rem 1.3125rem .375rem 1.375rem; 
+      border: 2.1px solid #458795;
+    } 
+  }     
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-NoSpZ.style-NoSpZ {  
+     transform:translate3d(0%, 0, 0);  
+     width:100%;  
+  }  
+  #style-DCGNs.style-DCGNs {  
+     max-height:420px;  
+     width:100%;  
+  }  
+  
+
+  @font-face { 
+    font-family:Avenir;
+    font-weight:black;
+    font-style:normal;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/c48fb9df25b2ea39a17072514a688c91.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir;
+    font-weight:thin;
+    font-style:italic;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/d8489afbaad9e34b5e98d79aa8f4af87.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir;
+    font-weight:light;
+    font-style:normal;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/052898610741607c48126f10578dea59.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir;
+    font-weight:medium;
+    font-style:normal;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/318a4707b226411bd28aae1baf4c007c.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir;
+    font-weight:bold;
+    font-style:normal;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/5901e423d5d914e5558268060e13d17c.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir-Heavy;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Heavy___b29ab4f53f8cb5143a1e8c7fa435d06c.woff2),url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Heavy___f080b6894f8375c59a197caa24aac91c.ttf);
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:Avenir-Light;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Light___5050988108999bc107b0fbac34affb99.woff2),url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Light___33f6570a328d84cb7d06e829a0c7ca1b.ttf);
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:Avenir-Medium;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Medium___78b3d71c2942ccf9c410893bf7c00bf0.woff2),url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Medium___7d635ea94b4460e86cd678e9e754a643.ttf);
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:Gotham;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Light___501537e6bdec998d611f5c9e12015528.otf);
+    font-weight:400;
+  } 
+  @font-face { 
+    font-family:Gotham-Bold;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Bold___5d6f50ed2dde0e4ad455448f896c09f0.otf);
+    font-weight:400;
+  } 
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+      line-height:1.15;
+    }  
+  @media screen and (min-width: 20em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 40em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 64em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 80em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  div { 
+      box-sizing: border-box;
+  } 
+  
+  .fle-d27 { 
+      display: -webkit-box; 
+      display: flex;
+  } 
+  
+  .column-2gb { 
+      -webkit-box-orient: vertical; 
+      flex-direction: column;
+  } 
+  
+  .column-2gb { 
+      -webkit-box-direction: normal;
+  } 
+  
+  .w-e64 { 
+      width: 100%;
+  } 
+  
+  body { 
+      margin: 0;
+  } 
+  
+  body { 
+      box-sizing: border-box;
+  } 
+  
+  body { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  body { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  body { 
+      font-size: 1rem;
+  } 
+  
+  @media screen and (min-width: 20em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 40em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 64em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 80em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  html { 
+      line-height: 1.15; 
+      -ms-text-size-adjust: 100%; 
+      -webkit-text-size-adjust: 100%;
+  } 
+  
+  html { 
+      box-sizing: border-box;
+  } 
+  
+  html { 
+      scroll-behavior: smooth;
+  } 
+  
+  section { 
+      display: block;
+  } 
+  
+  section { 
+      box-sizing: border-box;
+  } 
+  
+  .cen-jjr { 
+      margin-left: auto;
+  } 
+  
+  .cen-jjr { 
+      margin-right: auto;
+  } 
+  
+  .bxwge { 
+      padding-top: 0;
+  } 
+  
+  .xlkqo { 
+      margin-top: 0;
+  } 
+  
+  .lyhvo { 
+      padding-bottom: 0;
+  } 
+  
+  .ctehj { 
+      margin-bottom: 0;
+  } 
+  
+  .item-8ht { 
+      -webkit-box-align: stretch; 
+      align-items: stretch;
+  } 
+  
+  .justify-vfz { 
+      -webkit-box-pack: start; 
+      justify-content: flex-start;
+  } 
+  
+  .vtex-flex-layout-0-x-flexRowContent--first-b4b { 
+      padding: 0 1rem;
+  } 
+  
+  .ibosf { 
+      padding-right: 0;
+  } 
+  
+  .vtex-flex-layout-0-x-ock { 
+      justify-content: center;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .vtex-flex-layout-0-x-flexRowContent--first-b4b .vtex-flex-layout-0-x-ock:last-child  { 
+      width: 70%!important;
+    } 
+  }     
+  
+  .item-oni { 
+      -webkit-box-align: center; 
+      align-items: center;
+  } 
+  
+  .rel-oyx { 
+      position: relative;
+  } 
+  
+  .vtex-flex-layout-0-x-ock > :not(img)  { 
+      width: 100%;
+  } 
+  
+  .overflow-to6 { 
+      overflow: hidden;
+  } 
+  
+  button { 
+      font-family: sans-serif; 
+      font-size: 100%; 
+      line-height: 1.15; 
+      margin: 0;
+  } 
+  
+  button { 
+      overflow: visible;
+  } 
+  
+  button { 
+      text-transform: none;
+  } 
+  
+  button { 
+      -webkit-appearance: button;
+  } 
+  
+  button { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  button { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  .oibya { 
+      border-style: none; 
+      border-width: 0;
+  } 
+  
+  .ccwlx { 
+      margin: .25rem;
+  } 
+  
+  .left-tdr { 
+      left: 0;
+  } 
+  
+  .justify-zov { 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  .outline-i2q { 
+      outline: 0;
+  } 
+  
+  .abs-orr { 
+      position: absolute;
+  } 
+  
+  .slide-gop { 
+      width: 25px; 
+      height: 25px; 
+      padding-bottom: 50px; 
+      object-fit: contain;
+  } 
+  
+  @media only screen and (min-width: 1260px){ 
+    .slide-gop { 
+      width: 36px; 
+      height: 36px; 
+      padding-bottom: 0;
+    } 
+  }     
+  
+  .carousel-1jo { 
+      opacity: 1; 
+      transition: .5s ease;
+  } 
+  
+  .carousel-1jo:disabled { 
+      opacity: 0; 
+      transition: .5s ease;
+  } 
+  
+  .poi-i2s:hover { 
+      cursor: pointer;
+  } 
+  
+  .right-doo { 
+      right: 0;
+  } 
+  
+  .rkody { 
+      padding: 0;
+  } 
+  
+  .esrfq { 
+      margin: 0;
+  } 
+  
+  .justify-kww { 
+      justify-content: space-around;
+  } 
+  
+  .vtex-slider-layout-0-x-caretIcon--shelf { 
+      color: #979797;
+  } 
+  
+  svg:not(:root) { 
+      overflow: hidden;
+  } 
+  
+  p { 
+      box-sizing: border-box;
+  } 
+  
+  .lh-kny { 
+      line-height: 1.5;
+  } 
+  
+  .text-92b { 
+      margin: 0;
+  } 
+  
+  .title-8qb { 
+      padding: 0 1rem; 
+      font-size: 15px; 
+      font-weight: 300; 
+      color: #3a3a3a; 
+      line-height: normal; 
+      letter-spacing: normal;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .title-8qb { 
+      font-size: 22px; 
+      z-index: 1; 
+      position: relative;
+    } 
+  }     
+  
+  @media only screen and (min-width: 64em){ 
+    .title-8qb { 
+      font-size: 22px; 
+      padding: 0 0 0 135px;
+    } 
+  }     
+  
+  .item-q78 { 
+      -webkit-box-align: start; 
+      align-items: flex-start;
+  } 
+  
+  .c-on-iaj { 
+      color: #3f3f40;
+  } 
+  
+  .qxald { 
+      text-align: left;
+  } 
+  
+  .body-ejj { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  .body-ejj { 
+      font-size: 1rem;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .container-q2a { 
+      align-items: center;
+    } 
+  
+    .vtex-flex-layout-0-x-flexRowContent--first-b4b .vtex-flex-layout-0-x-ock:first-child  { 
+      width: 30%!important;
+    } 
+  }     
+  
+  .vexxg { 
+      font-weight: 700;
+  } 
+  
+  .title-mgt { 
+      font-size: 22px; 
+      line-height: 1.05;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .title-mgt { 
+      font-size: 35px; 
+      line-height: 1.06;
+    } 
+  }     
+  
+  .text-gno  { 
+      font-family: Gotham-Bold,Gotham;
+  } 
+  
+  .slide-wyx { 
+      margin-bottom: 25px; 
+      padding-left: .5rem; 
+      padding-right: .5rem;
+  } 
+  
+  .giroo { 
+      border-radius: .5rem;
+  } 
+  
+  .justify-4de { 
+      -webkit-box-pack: justify; 
+      justify-content: space-between;
+  } 
+  
+  .h-1ho { 
+      height: 100%;
+  } 
+  
+  .cgsbw { 
+      text-align: center;
+  } 
+  
+  .container-hir { 
+      text-align: start; 
+      border: 0 solid #dadada; 
+      max-width: none!important;
+  } 
+  
+  a { 
+      background-color: transparent; 
+      -webkit-text-decoration-skip: objects;
+  } 
+  
+  a { 
+      box-sizing: border-box;
+  } 
+  
+  a { 
+      text-decoration: none;
+  } 
+  
+  .vtex-product-summary-2-x-clearLink--8tj { 
+      text-decoration: inherit; 
+      color: inherit;
+  } 
+  
+  article { 
+      display: block;
+  } 
+  
+  article { 
+      box-sizing: border-box;
+  } 
+  
+  .orgyo { 
+      padding-top: .5rem;
+  } 
+  
+  .asllv { 
+      padding-bottom: .75rem;
+  } 
+  
+  .vtex-product-summary-2-x-element--9k9 { 
+      height: auto;
+  } 
+  
+  .badge-l5d { 
+      text-align: right; 
+      height: 30px;
+  } 
+  
+  .section-o8j a  { 
+      text-decoration: none;
+  } 
+  
+  img { 
+      border-style: none;
+  } 
+  
+  img { 
+      max-width: 100%;
+  } 
+  
+  .section-o8j .vtex-product-rx2  { 
+      width: 100%; 
+      height: 100%; 
+      -o-object-fit: contain; 
+      object-fit: contain; 
+      max-height: 300px;
+  } 
+  
+  .container-szv .vtex-product-rx2  { 
+      width: 100%; 
+      height: 100%; 
+      -o-object-fit: contain; 
+      object-fit: contain; 
+      max-height: 188px; 
+      min-height: 188px;
+  } 
+  
+  .fix-a6x { 
+      position: fixed;
+  } 
+  
+  .z-fm4 { 
+      z-index: 2147483647;
+  } 
+  
+  .vtex-brand-shelf-k5b { 
+      font-family: Avenir-Light; 
+      display: flex; 
+      justify-content: center; 
+      font-size: 18px; 
+      font-weight: 900; 
+      text-align: center; 
+      color: #888; 
+      text-transform: uppercase;
+  } 
+  
+  .vtex-brand-shelf-k5b { 
+      font-weight: 400;
+  } 
+  
+  h1 { 
+      font-size: 2em; 
+      margin: .67em 0;
+  } 
+  
+  h1 { 
+      box-sizing: border-box;
+  } 
+  
+  .vtex-name-shelf-hhr { 
+      font-family: Avenir-Medium; 
+      font-size: 16px; 
+      font-weight: 500; 
+      color: #000; 
+      text-transform: uppercase; 
+      text-align: center; 
+      min-height: 36px;
+  } 
+  
+  @media (min-width: 1025px){ 
+    .vtex-name-shelf-hhr { 
+      height: 54px; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      display: -webkit-box; 
+      -webkit-box-orient: vertical; 
+      -webkit-line-clamp: 3; 
+      font-family: Avenir-Light,sans-serif; 
+      color: #454545!important; 
+      text-transform: none;
+    } 
+  }     
+  
+  .vtex-name-shelf-hhr { 
+      padding: 0 2%;
+  } 
+  
+  .flex-ne8 { 
+      flex-wrap: wrap;
+  } 
+  
+  .vtex-gq6 { 
+      text-align: center;
+  } 
+  
+  .vtex-add-to-t5s { 
+      text-align: center;
+  } 
+  
+  .vtex-add-to-t5s { 
+      display: flex; 
+      justify-content: center;
+  } 
+  
+  .list-xpd { 
+      font-family: Avenir-Heavy; 
+      line-height: .81; 
+      letter-spacing: 3.4px; 
+      color: #00a2b0; 
+      padding-right: .25rem;
+  } 
+  
+  .list-xpd { 
+      font-size: 20px; 
+      font-weight: 900; 
+      font-stretch: normal; 
+      font-style: normal; 
+      text-align: center;
+  } 
+  
+  .vtex-m8y { 
+      font-size: 20px; 
+      font-weight: 900; 
+      font-stretch: normal; 
+      font-style: normal; 
+      text-align: center;
+  } 
+  
+  .vtex-m8y { 
+      font-family: Avenir-Light; 
+      line-height: 1.3; 
+      letter-spacing: 2.12px; 
+      color: #888; 
+      -webkit-text-decoration: line-through #ff0f0f; 
+      text-decoration: line-through #ff0f0f;
+  } 
+  
+  .bg-action-ww7 { 
+      background-color: #00a2b0;
+  } 
+  
+  .cfdkb { 
+      border-style: solid; 
+      border-width: 1px;
+  } 
+  
+  .b--action-cz4 { 
+      border-color: #00a2b0;
+  } 
+  
+  .snasq { 
+      border-radius: .25rem;
+  } 
+  
+  .bqoqd { 
+      border-width: .125rem;
+  } 
+  
+  .min-h-opm { 
+      min-height: 2.5rem; 
+      box-sizing: border-box;
+  } 
+  
+  .c-on-action-jkx { 
+      color: #fff;
+  } 
+  
+  .lh-do7 { 
+      line-height: 1;
+  } 
+  
+  .v-2ai { 
+      vertical-align: middle;
+  } 
+  
+  .t-g8y { 
+      font-size: 1rem;
+  } 
+  
+  .t-g8y { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 500; 
+      text-transform: uppercase; 
+      letter-spacing: 0;
+  } 
+  
+  .pvxws { 
+      font-weight: 500;
+  } 
+  
+  button,[type="button"]  { 
+      -webkit-appearance: button;
+  } 
+  
+  .vtex-product-summary-2-x-5ag .button-ztz  { 
+      height: 27px; 
+      object-fit: contain; 
+      margin: 21px 0 20px; 
+      padding: 9px 5px 8px; 
+      border-radius: 8px; 
+      border-color: #00a2b0; 
+      background-color: #00a2b0; 
+      font-size: 12px; 
+      letter-spacing: .67px; 
+      color: #fff;
+  } 
+  
+  @media only screen and (min-width: 1260px){ 
+    .vtex-product-summary-2-x-5ag .button-ztz  { 
+      height: 43px;
+    } 
+  }     
+  
+  .hover-c-on-action-pon:hover { 
+      color: #fff;
+  } 
+  
+  .hover-bg-action-53q:hover { 
+      background-color: #00a2b0;
+  } 
+  
+  .hover-b--action-178:hover { 
+      border-color: #00a2b0;
+  } 
+  
+  .dktvn { 
+      padding-left: 1.5rem; 
+      padding-right: 1.5rem;
+  } 
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-oW8Pz.style-oW8Pz {  
+     width: 50%;  
+  }  
+  #style-qmFzB.style-qmFzB {  
+     width: 50%;  
+  }  
+  #style-pRLR7.style-pRLR7 {  
+     transform: translate3d(0%, 0px, 0px);  
+      width: 366.667%;  
+  }  
+  #style-LFDLN.style-LFDLN {  
+     width: 9.09091%;  
+  }  
+  #style-4lM7N.style-4lM7N {  
+     max-width: 300px;  
+  }  
+  #style-yWD2R.style-yWD2R {  
+     padding-top: 0.25em;  
+      padding-bottom: 0.32em;  
+  }  
+  #style-vSBZK.style-vSBZK {  
+     pointer-events: none;  
+      inset: 0px;  
+  }  
+  #style-mBgFx.style-mBgFx {  
+     width: 9.09091%;  
+  }  
+  #style-SjLSm.style-SjLSm {  
+     max-width: 300px;  
+  }  
+  #style-8rvRy.style-8rvRy {  
+     padding-top: 0.25em;  
+      padding-bottom: 0.32em;  
+  }  
+  #style-5Ok1l.style-5Ok1l {  
+     pointer-events: none;  
+      inset: 0px;  
+  }  
+  #style-z4pGE.style-z4pGE {  
+     width: 9.09091%;  
+  }  
+  #style-UYXcJ.style-UYXcJ {  
+     max-width: 300px;  
+  }  
+  #style-4pv37.style-4pv37 {  
+     padding-top: 0.25em;  
+      padding-bottom: 0.32em;  
+  }  
+  #style-9EXio.style-9EXio {  
+     pointer-events: none;  
+      inset: 0px;  
+  }  
+  #style-Vzsbi.style-Vzsbi {  
+     width: 9.09091%;  
+  }  
+  #style-ED2Kj.style-ED2Kj {  
+     width: 9.09091%;  
+  }  
+  #style-1pgnr.style-1pgnr {  
+     width: 9.09091%;  
+  }  
+  #style-6Ttzf.style-6Ttzf {  
+     width: 9.09091%;  
+  }  
+  #style-7eI7a.style-7eI7a {  
+     width: 9.09091%;  
+  }  
+  #style-d1OmB.style-d1OmB {  
+     width: 9.09091%;  
+  }  
+  #style-dmHHY.style-dmHHY {  
+     width: 9.09091%;  
+  }  
+  #style-BfzJo.style-BfzJo {  
+     width: 9.09091%;  
+  }  
+  #style-xlDnM.style-xlDnM {  
+     background: transparent;  
+  }  
+  #style-Lo6xm.style-Lo6xm {  
+     background: transparent;  
+  }  
+
+  
+  @font-face { 
+    font-family:Gotham;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Light___501537e6bdec998d611f5c9e12015528.otf);
+    font-weight:400;
+  } 
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+      line-height:1.15;
+    }  
+  @media screen and (min-width: 20em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 40em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 64em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 80em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  div { 
+      box-sizing: border-box;
+  } 
+  
+  .fle-v3q { 
+      display: -webkit-box; 
+      display: flex;
+  } 
+  
+  .column-x2r { 
+      -webkit-box-orient: vertical; 
+      flex-direction: column;
+  } 
+  
+  .column-x2r { 
+      -webkit-box-direction: normal;
+  } 
+  
+  .w-65p { 
+      width: 100%;
+  } 
+  
+  body { 
+      margin: 0;
+  } 
+  
+  body { 
+      box-sizing: border-box;
+  } 
+  
+  body { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  body { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  body { 
+      font-size: 1rem;
+  } 
+  
+  @media screen and (min-width: 20em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 40em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 64em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 80em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  html { 
+      line-height: 1.15; 
+      -ms-text-size-adjust: 100%; 
+      -webkit-text-size-adjust: 100%;
+  } 
+  
+  html { 
+      box-sizing: border-box;
+  } 
+  
+  html { 
+      scroll-behavior: smooth;
+  } 
+  
+  section { 
+      display: block;
+  } 
+  
+  section { 
+      box-sizing: border-box;
+  } 
+  
+  .dfbcn { 
+      padding-bottom: 0;
+  } 
+  
+  .xcjrv { 
+      padding-right: 0;
+  } 
+  
+  .dqosi { 
+      padding: 0;
+  } 
+  
+  .neqvw { 
+      margin: 0;
+  } 
+  
+  .justify-qh7 { 
+      justify-content: space-around;
+  } 
+  
+  .rel-wgk { 
+      position: relative;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .slide-sio { 
+      column-gap: 3.25rem;
+    } 
+  }     
+  
+  .overflow-yoo { 
+      overflow: hidden;
+  } 
+  
+  .item-hlk { 
+      -webkit-box-align: center; 
+      align-items: center;
+  } 
+  
+  .container-46z { 
+      width: 100%; 
+      padding: 0 2.3125rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .container-46z { 
+      padding: 0 8.375rem;
+    } 
+  }     
+  
+  .tawbo { 
+      padding-left: 0;
+  } 
+  
+  .bjwnw { 
+      margin-left: 0;
+  } 
+  
+  .vebhv { 
+      margin-right: 0;
+  } 
+  
+  .h-6tp { 
+      height: 100%;
+  } 
+  
+  .vtex-flex-layout-0-x-flexCol--glasses-jz8 { 
+      align-items: center;
+  } 
+  
+  :not(img)  { 
+      width: 100%;
+  } 
+  
+  .justify-qhj { 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  a { 
+      background-color: transparent; 
+      -webkit-text-decoration-skip: objects;
+  } 
+  
+  a { 
+      box-sizing: border-box;
+  } 
+  
+  a { 
+      text-decoration: none;
+  } 
+  
+  .c-on-3p3 { 
+      color: #3f3f40;
+  } 
+  
+  .okslq { 
+      text-align: center;
+  } 
+  
+  .body-l6t { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  .body-l6t { 
+      font-size: 1rem;
+  } 
+  
+  img { 
+      border-style: none;
+  } 
+  
+  img { 
+      max-width: 100%;
+  } 
+  
+  .image-8ff { 
+      border-radius: .9375rem;
+  } 
+  
+  .image-pdo { 
+      max-height: unset!important;
+  } 
+  
+  .wrapper-sje { 
+      margin: 1.25rem 0 2.8125rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .wrapper-sje { 
+      margin: 1.4375rem 0 5.125rem;
+    } 
+  }     
+  
+  p { 
+      box-sizing: border-box;
+  } 
+  
+  .lh-no6 { 
+      line-height: 1.5;
+  } 
+  
+  .text-sra { 
+      margin: 0; 
+      padding: .5rem 1.0625rem .3125rem 1.375rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .text-sra { 
+      padding: .5625rem 1.5625rem .4375rem 1.5rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 40em){ 
+    .vtex-flex-layout-0-x-stretchChildrenWidth:last-child  { 
+      width: 70%!important;
+    } 
+  }     
+  
+  a  { 
+      text-decoration: none;
+  } 
+  
+  .link-jog { 
+      padding: .5rem 1.0625rem .3125rem 1.375rem; 
+      border-radius: 6.25rem; 
+      border: 2.1px solid #278a98; 
+      text-decoration: none; 
+      color: #128180;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .link-jog { 
+      padding: .5625rem 1.5625rem .4375rem 1.5rem;
+    } 
+  
+    .link-jog { 
+      border-radius: 6.25rem; 
+      border: 2.7px solid #48919f; 
+      text-decoration: none; 
+      color: #3a8080;
+    } 
+  }     
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-pNhI1.style-pNhI1 {  
+     height: 100%;  
+  }  
+  #style-GQKf9.style-GQKf9 {  
+     transform: translate3d(-33.3333%, 0px, 0px);  
+      width: 300%;  
+  }  
+  #style-3O7iz.style-3O7iz {  
+     width: 11.1111%;  
+  }  
+  #style-XDAIr.style-XDAIr {  
+     width: 11.1111%;  
+  }  
+  #style-2g9ty.style-2g9ty {  
+     width: 11.1111%;  
+  }  
+  #style-cvxox.style-cvxox {  
+     width: 11.1111%;  
+  }  
+  #style-oTqfK.style-oTqfK {  
+     height: 100%;  
+  }  
+  #style-P5Cx8.style-P5Cx8 {  
+     height: 100%;  
+  }  
+  #style-qLiMI.style-qLiMI {  
+     width: 11.1111%;  
+  }  
+  #style-A53Vp.style-A53Vp {  
+     height: 100%;  
+  }  
+  #style-VnaY1.style-VnaY1 {  
+     height: 100%;  
+  }  
+  #style-6xhXA.style-6xhXA {  
+     width: 11.1111%;  
+  }  
+  #style-GaYYB.style-GaYYB {  
+     height: 100%;  
+  }  
+  #style-g9QiV.style-g9QiV {  
+     height: 100%;  
+  }  
+  #style-ZjkPl.style-ZjkPl {  
+     width: 11.1111%;  
+  }  
+  #style-DAkv3.style-DAkv3 {  
+     width: 11.1111%;  
+  }  
+  #style-FKWGD.style-FKWGD {  
+     width: 11.1111%;  
+  }  
+
+  
+  @font-face { 
+    font-family:Avenir;
+    font-weight:black;
+    font-style:normal;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/c48fb9df25b2ea39a17072514a688c91.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir;
+    font-weight:thin;
+    font-style:italic;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/d8489afbaad9e34b5e98d79aa8f4af87.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir;
+    font-weight:light;
+    font-style:normal;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/052898610741607c48126f10578dea59.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir;
+    font-weight:medium;
+    font-style:normal;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/318a4707b226411bd28aae1baf4c007c.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir;
+    font-weight:bold;
+    font-style:normal;
+    src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/5901e423d5d914e5558268060e13d17c.ttf?workspace=master) format("truetype");
+  } 
+  @font-face { 
+    font-family:Avenir-Light;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Light___5050988108999bc107b0fbac34affb99.woff2),url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Light___33f6570a328d84cb7d06e829a0c7ca1b.ttf);
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:Avenir-Medium;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Medium___78b3d71c2942ccf9c410893bf7c00bf0.woff2),url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Medium___7d635ea94b4460e86cd678e9e754a643.ttf);
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:Gotham;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Light___501537e6bdec998d611f5c9e12015528.otf);
+    font-weight:400;
+  } 
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+      line-height:1.15;
+    }  
+  @media screen and (min-width: 20em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 40em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 64em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 80em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  div { 
+      box-sizing: border-box;
+  } 
+  
+  .fle-y15 { 
+      display: -webkit-box; 
+      display: flex;
+  } 
+  
+  .column-frb { 
+      -webkit-box-orient: vertical; 
+      flex-direction: column;
+  } 
+  
+  .column-frb { 
+      -webkit-box-direction: normal;
+  } 
+  
+  .w-w9a { 
+      width: 100%;
+  } 
+  
+  body { 
+      margin: 0;
+  } 
+  
+  body { 
+      box-sizing: border-box;
+  } 
+  
+  body { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  body { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  body { 
+      font-size: 1rem;
+  } 
+  
+  @media screen and (min-width: 20em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 40em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 64em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 80em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  html { 
+      line-height: 1.15; 
+      -ms-text-size-adjust: 100%; 
+      -webkit-text-size-adjust: 100%;
+  } 
+  
+  html { 
+      box-sizing: border-box;
+  } 
+  
+  html { 
+      scroll-behavior: smooth;
+  } 
+  
+  section { 
+      display: block;
+  } 
+  
+  section { 
+      box-sizing: border-box;
+  } 
+  
+  .cen-4pa { 
+      margin-left: auto;
+  } 
+  
+  .cen-4pa { 
+      margin-right: auto;
+  } 
+  
+  .enrlh { 
+      padding-top: 0;
+  } 
+  
+  .goase { 
+      margin-top: 0;
+  } 
+  
+  .jeqof { 
+      padding-bottom: 0;
+  } 
+  
+  .gxehx { 
+      margin-bottom: 0;
+  } 
+  
+  .item-ahr { 
+      -webkit-box-align: stretch; 
+      align-items: stretch;
+  } 
+  
+  .justify-jkt { 
+      -webkit-box-pack: start; 
+      justify-content: flex-start;
+  } 
+  
+  .ehqvv { 
+      padding-right: 0;
+  } 
+  
+  .obrmw { 
+      padding-left: 0;
+  } 
+  
+  .wmegg { 
+      margin-left: 0;
+  } 
+  
+  .xvhej { 
+      margin-right: 0;
+  } 
+  
+  .h-76h { 
+      height: 100%;
+  } 
+  
+  .vtex-flex-layout-0-x-b9w > :not(img)  { 
+      width: 100%;
+  } 
+  
+  .vtex-flex-layout-0-x-b9w { 
+      justify-content: center;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .vtex-flex-layout-0-x-flexRowContent--npv.vtex-flex-layout-0-x-flexRowContent--contact-poo { 
+      padding: 0 8.375rem;
+    } 
+  }     
+  
+  a { 
+      background-color: transparent; 
+      -webkit-text-decoration-skip: objects;
+  } 
+  
+  a { 
+      box-sizing: border-box;
+  } 
+  
+  a { 
+      text-decoration: none;
+  } 
+  
+  .c-on-l1y { 
+      color: #3f3f40;
+  } 
+  
+  .poi-o7y:hover { 
+      cursor: pointer;
+  } 
+  
+  .justify-j5s { 
+      -webkit-box-pack: justify; 
+      justify-content: space-between;
+  } 
+  
+  p { 
+      box-sizing: border-box;
+  } 
+  
+  .lh-12x { 
+      line-height: 1.5;
+  } 
+  
+  .title-5sd { 
+      margin: 0 0 1rem; 
+      font-size: 18px; 
+      font-weight: 300; 
+      color: #3a3a3a; 
+      line-height: normal; 
+      letter-spacing: normal;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .title-5sd { 
+      font-size: 27px; 
+      margin: 0;
+    } 
+  }     
+  
+  .item-izl { 
+      -webkit-box-align: center; 
+      align-items: center;
+  } 
+  
+  .justify-2mp { 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  .pyqib { 
+      text-align: center;
+  } 
+  
+  .body-4zl { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  .body-4zl { 
+      font-size: 1rem;
+  } 
+  
+  .col-hsk { 
+      place-content: center;
+  } 
+  
+  .rel-4h7 { 
+      position: relative;
+  } 
+  
+  .col-lyz { 
+      padding: 0 1rem; 
+      align-self: center;
+  } 
+  
+  .overflow-p8w { 
+      overflow: hidden;
+  } 
+  
+  button { 
+      font-family: sans-serif; 
+      font-size: 100%; 
+      line-height: 1.15; 
+      margin: 0;
+  } 
+  
+  button { 
+      overflow: visible;
+  } 
+  
+  button { 
+      text-transform: none;
+  } 
+  
+  button { 
+      -webkit-appearance: button;
+  } 
+  
+  button { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  button { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  .owofj { 
+      border-style: none; 
+      border-width: 0;
+  } 
+  
+  .tgcdv { 
+      margin: .25rem;
+  } 
+  
+  .left-isa { 
+      left: 0;
+  } 
+  
+  .outline-y8o { 
+      outline: 0;
+  } 
+  
+  .abs-bpz { 
+      position: absolute;
+  } 
+  
+  .slide-xz7 { 
+      width: 25px; 
+      height: 25px; 
+      padding-bottom: 50px; 
+      object-fit: contain;
+  } 
+  
+  @media only screen and (min-width: 1260px){ 
+    .slide-xz7 { 
+      width: 36px; 
+      height: 36px; 
+      padding-bottom: 0;
+    } 
+  }     
+  
+  .carousel-zyp { 
+      opacity: 1; 
+      transition: .5s ease;
+  } 
+  
+  .carousel-zyp:disabled { 
+      opacity: 0; 
+      transition: .5s ease;
+  } 
+  
+  .right-24r { 
+      right: 0;
+  } 
+  
+  img { 
+      border-style: none;
+  } 
+  
+  img { 
+      max-width: 100%;
+  } 
+  
+  .image-e15 { 
+      border-radius: 1rem;
+  } 
+  
+  .image-yk8 { 
+      max-height: unset!important;
+  } 
+  
+  .fghxf { 
+      padding: 0;
+  } 
+  
+  .bhjco { 
+      margin: 0;
+  } 
+  
+  .justify-7c6 { 
+      justify-content: space-around;
+  } 
+  
+  .vtex-slider-layout-0-x-caretIcon--shelf { 
+      color: #979797;
+  } 
+  
+  svg:not(:root) { 
+      overflow: hidden;
+  } 
+  
+  .slide-2po { 
+      margin-bottom: 25px; 
+      padding-left: .5rem; 
+      padding-right: .5rem;
+  } 
+  
+  article { 
+      display: block;
+  } 
+  
+  article { 
+      box-sizing: border-box;
+  } 
+  
+  .negmt { 
+      padding-top: .5rem;
+  } 
+  
+  .spgfv { 
+      padding-bottom: .75rem;
+  } 
+  
+  .vtex-product-summary-2-x-element--xmb { 
+      height: auto;
+  } 
+  
+  .vtex-product-summary-2-x-clearLink--lpv { 
+      text-decoration: inherit; 
+      color: inherit;
+  } 
+  
+  .ospda { 
+      border-radius: .5rem;
+  } 
+  
+  .container-voq { 
+      text-align: start; 
+      border: 0 solid #dadada; 
+      max-width: none!important;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .vtex-flex-layout-0-x-b9w:last-child  { 
+      width: 70%!important;
+    } 
+  }     
+  
+  .section-byc a  { 
+      text-decoration: none;
+  } 
+  
+  .button-3sj { 
+      margin: 0;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .button-3sj { 
+      padding: .5625rem 1.9375rem .4375rem 1.625rem;
+    } 
+  }     
+  
+  .section-byc .vtex-product-dw9  { 
+      width: 100%; 
+      height: 100%; 
+      -o-object-fit: contain; 
+      object-fit: contain; 
+      max-height: 300px;
+  } 
+  
+  .container-kjx .vtex-product-dw9  { 
+      width: 100%; 
+      height: 100%; 
+      -o-object-fit: contain; 
+      object-fit: contain; 
+      max-height: 188px; 
+      min-height: 188px;
+  } 
+  
+  .button-olw { 
+      font-size: 12px; 
+      font-weight: 300; 
+      color: #128180; 
+      line-height: normal; 
+      letter-spacing: normal; 
+      text-decoration: none; 
+      padding: .375rem 1.125rem .3125rem; 
+      border-radius: 6.25rem; 
+      border: 2.1px solid #278a98;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .button-olw { 
+      font-size: 16px; 
+      padding: .5625rem 1.9375rem .4375rem 1.625rem; 
+      border: 2.7px solid #48919f;
+    } 
+  }     
+  
+  .badge-rt2 { 
+      text-align: right; 
+      height: 30px;
+  } 
+  
+  .tgmvi { 
+      border-width: .125rem;
+  } 
+  
+  .fix-al9 { 
+      position: fixed;
+  } 
+  
+  .z-y4n { 
+      z-index: 2147483647;
+  } 
+  
+  .vtex-brand-shelf-519 { 
+      font-family: Avenir-Light; 
+      display: flex; 
+      justify-content: center; 
+      font-size: 18px; 
+      font-weight: 900; 
+      text-align: center; 
+      color: #888; 
+      text-transform: uppercase;
+  } 
+  
+  .vtex-brand-shelf-519 { 
+      font-weight: 400;
+  } 
+  
+  h1 { 
+      font-size: 2em; 
+      margin: .67em 0;
+  } 
+  
+  h1 { 
+      box-sizing: border-box;
+  } 
+  
+  .vtex-name-shelf-brj { 
+      font-family: Avenir-Medium; 
+      font-size: 16px; 
+      font-weight: 500; 
+      color: #000; 
+      text-transform: uppercase; 
+      text-align: center; 
+      min-height: 36px;
+  } 
+  
+  @media (min-width: 1025px){ 
+    .vtex-name-shelf-brj { 
+      height: 54px; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      display: -webkit-box; 
+      -webkit-box-orient: vertical; 
+      -webkit-line-clamp: 3; 
+      font-family: Avenir-Light,sans-serif; 
+      color: #454545!important; 
+      text-transform: none;
+    } 
+  }     
+  
+  .vtex-name-shelf-brj { 
+      padding: 0 2%;
+  } 
+  
+  .flex-tkr { 
+      flex-wrap: wrap;
+  } 
+  
+  .vtex-8qe { 
+      text-align: center;
+  } 
+  
+  .vtex-menu-2-x-menuItem--navbar-submenu:first-child .vtex-menu-2-x-styledLinkContent--navbar-submenu { 
+      display: none;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .vtex-menu-2-x-menuItem--navbar-submenu:first-child .vtex-menu-2-x-styledLinkContent--navbar-submenu { 
+      font-size: .75rem; 
+      font-weight: 700; 
+      color: #000; 
+      text-transform: uppercase; 
+      padding-bottom: .625rem; 
+      display: block;
+    } 
+  }     
+  
+  .vtex-jo8 { 
+      font-size: 20px; 
+      font-weight: 900; 
+      font-stretch: normal; 
+      font-style: normal; 
+      text-align: center;
+  } 
+  
+  .vtex-jo8 { 
+      font-family: Avenir-Light; 
+      line-height: 1.3; 
+      letter-spacing: 2.12px; 
+      color: #888; 
+      -webkit-text-decoration: line-through #ff0f0f; 
+      text-decoration: line-through #ff0f0f;
+  } 
+  
+  .vtex-add-to-7m4 { 
+      text-align: center;
+  } 
+  
+  .vtex-add-to-7m4 { 
+      display: flex; 
+      justify-content: center;
+  } 
+  
+  .bg-action-grt { 
+      background-color: #00a2b0;
+  } 
+  
+  .qssrt { 
+      border-style: solid; 
+      border-width: 1px;
+  } 
+  
+  .b--action-2xf { 
+      border-color: #00a2b0;
+  } 
+  
+  .hssos { 
+      border-radius: .25rem;
+  } 
+  
+  .min-h-6pb { 
+      min-height: 2.5rem; 
+      box-sizing: border-box;
+  } 
+  
+  .c-on-action-9fr { 
+      color: #fff;
+  } 
+  
+  .lh-67q { 
+      line-height: 1;
+  } 
+  
+  .v-8op { 
+      vertical-align: middle;
+  } 
+  
+  .t-ng3 { 
+      font-size: 1rem;
+  } 
+  
+  .t-ng3 { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 500; 
+      text-transform: uppercase; 
+      letter-spacing: 0;
+  } 
+  
+  .bjexg { 
+      font-weight: 500;
+  } 
+  
+  button,[type="button"]  { 
+      -webkit-appearance: button;
+  } 
+  
+  .vtex-product-summary-2-x-943 .button-egw  { 
+      height: 27px; 
+      object-fit: contain; 
+      margin: 21px 0 20px; 
+      padding: 9px 5px 8px; 
+      border-radius: 8px; 
+      border-color: #00a2b0; 
+      background-color: #00a2b0; 
+      font-size: 12px; 
+      letter-spacing: .67px; 
+      color: #fff;
+  } 
+  
+  @media only screen and (min-width: 1260px){ 
+    .vtex-product-summary-2-x-943 .button-egw  { 
+      height: 43px;
+    } 
+  }     
+  
+  .hover-c-on-action-ihl:hover { 
+      color: #fff;
+  } 
+  
+  .hover-bg-action-kp1:hover { 
+      background-color: #00a2b0;
+  } 
+  
+  .hover-b--action-84q:hover { 
+      border-color: #00a2b0;
+  } 
+  
+  .iylic { 
+      padding-left: 1.5rem; 
+      padding-right: 1.5rem;
+  } 
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-jV8aD.style-jV8aD {  
+     width: 100%;  
+  }  
+  #style-H9oCo.style-H9oCo {  
+     height: 100%;  
+  }  
+  #style-tsrmI.style-tsrmI {  
+     height: 100%;  
+  }  
+  #style-QYmMv.style-QYmMv {  
+     width: 50%;  
+  }  
+  #style-6IKy1.style-6IKy1 {  
+     height: auto;  
+  }  
+  #style-X5fh1.style-X5fh1 {  
+     height: auto;  
+  }  
+  #style-3fUIs.style-3fUIs {  
+     height: auto;  
+  }  
+  #style-6ekNG.style-6ekNG {  
+     width: 50%;  
+  }  
+  #style-KGXoT.style-KGXoT {  
+     transform: translate3d(0%, 0px, 0px);  
+      width: 200%;  
+  }  
+  #style-bLQoP.style-bLQoP {  
+     width: 25%;  
+  }  
+  #style-FAkED.style-FAkED {  
+     max-width: 300px;  
+  }  
+  #style-7PnS7.style-7PnS7 {  
+     padding-top: 0.25em;  
+      padding-bottom: 0.32em;  
+  }  
+  #style-rlTF8.style-rlTF8 {  
+     pointer-events: none;  
+      inset: 0px;  
+  }  
+  #style-OCVdn.style-OCVdn {  
+     width: 25%;  
+  }  
+  #style-4Rfob.style-4Rfob {  
+     max-width: 300px;  
+  }  
+  #style-ApQfD.style-ApQfD {  
+     padding-top: 0.25em;  
+      padding-bottom: 0.32em;  
+  }  
+  #style-DbSiM.style-DbSiM {  
+     pointer-events: none;  
+      inset: 0px;  
+  }  
+  #style-zMA1C.style-zMA1C {  
+     width: 25%;  
+  }  
+  #style-icFhl.style-icFhl {  
+     width: 25%;  
+  }  
+  #style-RgUmx.style-RgUmx {  
+     background: transparent;  
+  }  
+  #style-KJMQZ.style-KJMQZ {  
+     background: transparent;  
+  }  
+
+  
+  @font-face { 
+    font-family:Gotham;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Light___501537e6bdec998d611f5c9e12015528.otf);
+    font-weight:400;
+  } 
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+      line-height:1.15;
+    }  
+  @media screen and (min-width: 20em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 40em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 64em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 80em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  div { 
+      box-sizing: border-box;
+  } 
+  
+  .fle-1oj { 
+      display: -webkit-box; 
+      display: flex;
+  } 
+  
+  .column-rs6 { 
+      -webkit-box-orient: vertical; 
+      flex-direction: column;
+  } 
+  
+  .column-rs6 { 
+      -webkit-box-direction: normal;
+  } 
+  
+  .w-tli { 
+      width: 100%;
+  } 
+  
+  body { 
+      margin: 0;
+  } 
+  
+  body { 
+      box-sizing: border-box;
+  } 
+  
+  body { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  body { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  body { 
+      font-size: 1rem;
+  } 
+  
+  @media screen and (min-width: 20em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 40em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 64em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 80em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  html { 
+      line-height: 1.15; 
+      -ms-text-size-adjust: 100%; 
+      -webkit-text-size-adjust: 100%;
+  } 
+  
+  html { 
+      box-sizing: border-box;
+  } 
+  
+  html { 
+      scroll-behavior: smooth;
+  } 
+  
+  section { 
+      display: block;
+  } 
+  
+  section { 
+      box-sizing: border-box;
+  } 
+  
+  .solcv { 
+      padding-top: 0;
+  } 
+  
+  .vjdmi { 
+      margin-top: 0;
+  } 
+  
+  .eswar { 
+      padding-bottom: 0;
+  } 
+  
+  .tcbis { 
+      margin-bottom: 0;
+  } 
+  
+  .item-m68 { 
+      -webkit-box-align: stretch; 
+      align-items: stretch;
+  } 
+  
+  .justify-ire { 
+      -webkit-box-pack: start; 
+      justify-content: flex-start;
+  } 
+  
+  .vnhpx { 
+      padding-right: 0;
+  } 
+  
+  .tclga { 
+      padding-left: 0;
+  } 
+  
+  .opasr { 
+      margin-left: 0;
+  } 
+  
+  .riknt { 
+      margin-right: 0;
+  } 
+  
+  .h-er5 { 
+      height: 100%;
+  } 
+  
+  .vtex-flex-layout-0-x-46a > :not(img)  { 
+      width: 100%;
+  } 
+  
+  .vtex-flex-layout-0-x-46a { 
+      justify-content: center;
+  } 
+  
+  .item-vk6 { 
+      -webkit-box-align: center; 
+      align-items: center;
+  } 
+  
+  .rel-8lw { 
+      position: relative;
+  } 
+  
+  .col-q3e { 
+      padding: 0 1rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .vtex-flex-layout-0-x-flexRowContent--9ee.col-x5s { 
+      padding: 0 8.375rem;
+    } 
+  }     
+  
+  button { 
+      font-family: sans-serif; 
+      font-size: 100%; 
+      line-height: 1.15; 
+      margin: 0;
+  } 
+  
+  button { 
+      overflow: visible;
+  } 
+  
+  button { 
+      text-transform: none;
+  } 
+  
+  button { 
+      -webkit-appearance: button;
+  } 
+  
+  button { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  button { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  .qkdnp { 
+      border-style: none; 
+      border-width: 0;
+  } 
+  
+  .olial { 
+      margin: .25rem;
+  } 
+  
+  .left-vno { 
+      left: 0;
+  } 
+  
+  .justify-eho { 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  .outline-8em { 
+      outline: 0;
+  } 
+  
+  .abs-hxz { 
+      position: absolute;
+  } 
+  
+  .poi-2w8:hover { 
+      cursor: pointer;
+  } 
+  
+  .right-7dz { 
+      right: 0;
+  } 
+  
+  .bfjxw { 
+      padding: 0;
+  } 
+  
+  .sfsgs { 
+      margin: 0;
+  } 
+  
+  .bottom-z8q { 
+      bottom: 0;
+  } 
+  
+  .pagination-5yn { 
+      margin-bottom: .375rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .pagination-5yn { 
+      margin-bottom: 1rem;
+    } 
+  }     
+  
+  a { 
+      background-color: transparent; 
+      -webkit-text-decoration-skip: objects;
+  } 
+  
+  a { 
+      box-sizing: border-box;
+  } 
+  
+  a { 
+      text-decoration: none;
+  } 
+  
+  .c-on-8zs { 
+      color: #3f3f40;
+  } 
+  
+  svg:not(:root) { 
+      overflow: hidden;
+  } 
+  
+  .bg-muted-ahw { 
+      background-color: #cacbcc;
+  } 
+  
+  .br-xq8 { 
+      border-radius: 100%;
+  } 
+  
+  .kvvcj { 
+      border-width: 0;
+  } 
+  
+  .lkomt { 
+      padding: .25rem;
+  } 
+  
+  .davxh { 
+      margin-left: .25rem;
+  } 
+  
+  .ofyho { 
+      margin-right: .25rem;
+  } 
+  
+  .bqwxv { 
+      display: inline-block;
+  } 
+  
+  .row-dax { 
+      -moz-osx-font-smoothing: grayscale; 
+      -webkit-backface-visibility: hidden; 
+      backface-visibility: hidden; 
+      -webkit-transform: translateZ(0); 
+      transform: translateZ(0); 
+      -webkit-transition: -webkit-transform .25s ease-out; 
+      transition: -webkit-transform .25s ease-out; 
+      transition: transform .25s ease-out; 
+      transition: transform .25s ease-out,-webkit-transform .25s ease-out;
+  } 
+  
+  .pagination-wpl { 
+      background-color: #fff; 
+      width: 17px!important; 
+      height: 17px!important; 
+      border: 1.2px solid #979797; 
+      object-fit: contain;
+  } 
+  
+  .pagination-ckg { 
+      width: 9px!important; 
+      height: 9px!important; 
+      border: 1.6px solid #3a3a3a; 
+      background-color: transparent; 
+      margin: 0 .0313rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .pagination-ckg { 
+      border: 2.1px solid #2b2b2b; 
+      width: 13px!important; 
+      height: 13px!important;
+    } 
+  }     
+  
+  .row-dax:hover { 
+      -webkit-transform: scale(1.05); 
+      transform: scale(1.05);
+  } 
+  
+  p { 
+      box-sizing: border-box;
+  } 
+  
+  .lh-jkg { 
+      line-height: 1.5;
+  } 
+  
+  .jpooo { 
+      text-align: center;
+  } 
+  
+  .body-pqr { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  .body-pqr { 
+      font-size: 1rem;
+  } 
+  
+  .justify-hax { 
+      justify-content: space-around;
+  } 
+  
+  .overflow-9hd { 
+      overflow: hidden;
+  } 
+  
+  img { 
+      border-style: none;
+  } 
+  
+  img { 
+      max-width: 100%;
+  } 
+  
+  .image-c89 { 
+      max-height: unset!important;
+  } 
+  
+  .slide-dv2 { 
+      border-radius: 1rem;
+  } 
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-pioJK.style-pioJK {  
+     width: 100%;  
+  }  
+  #style-UgoH4.style-UgoH4 {  
+     height: 100%;  
+  }  
+  #style-v4bzs.style-v4bzs {  
+     height: 100%;  
+  }  
+  #style-9pQ5o.style-9pQ5o {  
+     transform: translate3d(-28.5714%, 0px, 0px);  
+      width: 700%;  
+  }  
+  #style-dd4FW.style-dd4FW {  
+     width: 14.2857%;  
+  }  
+  #style-jdOtP.style-jdOtP {  
+     width: 14.2857%;  
+  }  
+  #style-9eNRO.style-9eNRO {  
+     max-height: 420px;  
+      width: 100%;  
+  }  
+  #style-HF4F9.style-HF4F9 {  
+     width: 14.2857%;  
+  }  
+  #style-xeNIv.style-xeNIv {  
+     max-height: 420px;  
+      width: 100%;  
+  }  
+  #style-szHPo.style-szHPo {  
+     width: 14.2857%;  
+  }  
+  #style-QZpbT.style-QZpbT {  
+     max-height: 420px;  
+      width: 100%;  
+  }  
+  #style-3GbGn.style-3GbGn {  
+     width: 14.2857%;  
+  }  
+  #style-gg6Ee.style-gg6Ee {  
+     max-height: 420px;  
+      width: 100%;  
+  }  
+  #style-ilxAG.style-ilxAG {  
+     width: 14.2857%;  
+  }  
+  #style-5MD5r.style-5MD5r {  
+     max-height: 420px;  
+      width: 100%;  
+  }  
+  #style-zo7ME.style-zo7ME {  
+     width: 14.2857%;  
+  }  
+  #style-JJqfL.style-JJqfL {  
+     max-height: 420px;  
+      width: 100%;  
+  }  
+  #style-aCyeG.style-aCyeG {  
+     background: transparent;  
+  }  
+  #style-wIC8M.style-wIC8M {  
+     background: transparent;  
+  }  
+  #style-AJFh8.style-AJFh8 {  
+     height: 0.625rem;  
+      width: 0.625rem;  
+  }  
+  #style-615Po.style-615Po {  
+     height: 0.625rem;  
+      width: 0.625rem;  
+  }  
+  #style-vNddc.style-vNddc {  
+     height: 0.625rem;  
+      width: 0.625rem;  
+  }  
+  #style-Nx1bN.style-Nx1bN {  
+     height: 0.625rem;  
+      width: 0.625rem;  
+  }  
+  #style-KV6dk.style-KV6dk {  
+     height: 0.625rem;  
+      width: 0.625rem;  
+  }  
+
+  
+  @font-face { 
+    font-family:Gotham;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Light___501537e6bdec998d611f5c9e12015528.otf);
+    font-weight:400;
+  } 
+  @font-face { 
+    font-family:Gotham-Bold;
+    src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Bold___5d6f50ed2dde0e4ad455448f896c09f0.otf);
+    font-weight:400;
+  } 
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+      line-height:1.15;
+    }  
+  @media screen and (min-width: 20em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 40em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 64em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  @media screen and (min-width: 80em){     
+    body {  
+      font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+      font-weight:400;
+      text-transform:none;
+      letter-spacing:0;
+      font-size:1rem;
+    }  
+  }  
+  div { 
+      box-sizing: border-box;
+  } 
+  
+  .fle-xy2 { 
+      display: -webkit-box; 
+      display: flex;
+  } 
+  
+  .w-5cn { 
+      width: 100%;
+  } 
+  
+  body { 
+      margin: 0;
+  } 
+  
+  body { 
+      box-sizing: border-box;
+  } 
+  
+  body { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  body { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  body { 
+      font-size: 1rem;
+  } 
+  
+  @media screen and (min-width: 20em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 40em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 64em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 80em){ 
+    body { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+    } 
+  
+    body { 
+      font-size: 1rem;
+    } 
+  }     
+  
+  html { 
+      line-height: 1.15; 
+      -ms-text-size-adjust: 100%; 
+      -webkit-text-size-adjust: 100%;
+  } 
+  
+  html { 
+      box-sizing: border-box;
+  } 
+  
+  html { 
+      scroll-behavior: smooth;
+  } 
+  
+  section { 
+      display: block;
+  } 
+  
+  section { 
+      box-sizing: border-box;
+  } 
+  
+  .lyimq { 
+      padding-left: .5rem; 
+      padding-right: .5rem;
+  } 
+  
+  .jjcvv { 
+      max-width: 96rem;
+  } 
+  
+  .cen-7xg { 
+      margin-left: auto;
+  } 
+  
+  .cen-7xg { 
+      margin-right: auto;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .ph5-fgo { 
+      padding-left: 1rem; 
+      padding-right: 1rem;
+    } 
+  }     
+  
+  @media screen and (min-width: 80em){ 
+    .ph2-v38 { 
+      padding-left: .25rem; 
+      padding-right: .25rem;
+    } 
+  }     
+  
+  .container-c57  { 
+      max-width: 120rem; 
+      padding: 0;
+  } 
+  
+  .fdsxf { 
+      padding-top: 0;
+  } 
+  
+  .gxogw { 
+      margin-top: 0;
+  } 
+  
+  .qcoym { 
+      padding-bottom: 0;
+  } 
+  
+  .rnptd { 
+      margin-bottom: 0;
+  } 
+  
+  .item-881 { 
+      -webkit-box-align: stretch; 
+      align-items: stretch;
+  } 
+  
+  .justify-88p { 
+      -webkit-box-pack: start; 
+      justify-content: flex-start;
+  } 
+  
+  .eadfx { 
+      padding-right: 0;
+  } 
+  
+  .vtex-flex-layout-0-x-flexRowContent--home-wsr { 
+      margin: 2.75rem 0 2.0625rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .vtex-flex-layout-0-x-flexRowContent--home-wsr { 
+      margin: 7.4375rem 0 7rem; 
+      padding: 0 4.5625rem 0 8.375rem;
+    } 
+  }     
+  
+  .vtex-flex-layout-0-x-flexRow--whq .container-c57  { 
+      padding: 0; 
+      max-width: 1920px;
+  } 
+  
+  .vtex-flex-layout-0-x-7tj { 
+      justify-content: center;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .vtex-flex-layout-0-x-flexRowContent--home-wsr .vtex-flex-layout-0-x-7tj:last-child  { 
+      width: 70%!important;
+    } 
+  }     
+  
+  .rdmxk { 
+      padding: 0;
+  } 
+  
+  .madfy { 
+      margin: 0;
+  } 
+  
+  .justify-8ng { 
+      justify-content: space-around;
+  } 
+  
+  .rel-gbr { 
+      position: relative;
+  } 
+  
+  .overflow-6fq { 
+      overflow: hidden;
+  } 
+  
+  .item-rnc { 
+      -webkit-box-align: center; 
+      align-items: center;
+  } 
+  
+  .vtex-flex-layout-0-x-7tj > :not(img)  { 
+      width: 100%;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .vtex-flex-layout-0-x-7tj:last-child  { 
+      width: 70%!important;
+    } 
+  }     
+  
+  a { 
+      background-color: transparent; 
+      -webkit-text-decoration-skip: objects;
+  } 
+  
+  a { 
+      box-sizing: border-box;
+  } 
+  
+  a { 
+      text-decoration: none;
+  } 
+  
+  .c-on-li3 { 
+      color: #3f3f40;
+  } 
+  
+  .poi-n9c:hover { 
+      cursor: pointer;
+  } 
+  
+  .justify-frz { 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  .slide-boe { 
+      padding: 1.1875rem 1.375rem 0;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .slide-boe { 
+      padding: 0 3.75rem;
+    } 
+  }     
+  
+  button { 
+      font-family: sans-serif; 
+      font-size: 100%; 
+      line-height: 1.15; 
+      margin: 0;
+  } 
+  
+  button { 
+      overflow: visible;
+  } 
+  
+  button { 
+      text-transform: none;
+  } 
+  
+  button { 
+      -webkit-appearance: button;
+  } 
+  
+  button { 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  button { 
+      font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  } 
+  
+  .tmoij { 
+      border-style: none; 
+      border-width: 0;
+  } 
+  
+  .tptrm { 
+      margin: .25rem;
+  } 
+  
+  .left-bt4 { 
+      left: 0;
+  } 
+  
+  .outline-a8y { 
+      outline: 0;
+  } 
+  
+  .abs-xll { 
+      position: absolute;
+  } 
+  
+  .slide-6qi { 
+      opacity: 1; 
+      transition: .5s ease;
+  } 
+  
+  .slide-qsg { 
+      padding: 0 1rem 0 0;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .slide-qsg { 
+      padding: 0 1rem 1rem 0;
+    } 
+  }     
+  
+  .slide-6qi:disabled { 
+      opacity: 0; 
+      transition: .5s ease;
+  } 
+  
+  .right-5d2 { 
+      right: 0;
+  } 
+  
+  .slide-99b { 
+      padding: 0 0 0 1rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .slide-99b { 
+      padding: 0 0 1rem 1rem;
+    } 
+  }     
+  
+  .vtex-slider-layout-0-x-caretIcon--sunglasses-slider { 
+      color: #373737;
+  } 
+  
+  .vtex-slider-layout-0-x-caretIcon--sunglasses-slider { 
+      width: 14px;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .vtex-slider-layout-0-x-caretIcon--sunglasses-slider { 
+      width: 25px;
+    } 
+  }     
+  
+  svg:not(:root) { 
+      overflow: hidden;
+  } 
+  
+  p { 
+      box-sizing: border-box;
+  } 
+  
+  .lh-ceo { 
+      line-height: 1.5;
+  } 
+  
+  .text-hs5 { 
+      margin: 0;
+  } 
+  
+  .title-9o8 { 
+      padding: 0 1rem; 
+      font-size: 15px; 
+      font-weight: 300; 
+      color: #3a3a3a; 
+      line-height: normal; 
+      letter-spacing: normal;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .title-9o8 { 
+      font-size: 22px; 
+      z-index: 1; 
+      position: relative;
+    } 
+  }     
+  
+  @media only screen and (min-width: 64em){ 
+    .title-9o8 { 
+      font-size: 22px; 
+      padding: 0 0 0 135px;
+    } 
+  
+    .title-k4p { 
+      padding: 0;
+    } 
+  }     
+  
+  .item-bp2 { 
+      -webkit-box-align: start; 
+      align-items: flex-start;
+  } 
+  
+  .dojdh { 
+      text-align: left;
+  } 
+  
+  .body-toi { 
+      font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+      font-weight: 400; 
+      text-transform: none; 
+      letter-spacing: 0;
+  } 
+  
+  .body-toi { 
+      font-size: 1rem;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .container-58h { 
+      align-items: center;
+    } 
+  
+    .vtex-flex-layout-0-x-flexRowContent--home-wsr .vtex-flex-layout-0-x-7tj:first-child  { 
+      width: 30%!important;
+    } 
+  }     
+  
+  .dhiii { 
+      font-weight: 700;
+  } 
+  
+  .title-ak8 { 
+      font-size: 22px; 
+      line-height: 1.05;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .title-ak8 { 
+      font-size: 35px; 
+      line-height: 1.06;
+    } 
+  }     
+  
+  .vtex-flex-layout-0-x-flexRow--whq .text-rco  { 
+      font-family: Gotham-Bold,Gotham;
+  } 
+  
+  .title-wle { 
+      font-size: 12px; 
+      font-weight: 300; 
+      color: #3a3a3a; 
+      text-decoration: underline;
+  } 
+  
+  @media screen and (min-width: 40em){ 
+    .title-wle { 
+      font-size: 20px; 
+      white-space: nowrap; 
+      padding-right: 1.25rem;
+    } 
+  }     
+  
+  .slide-iv4 { 
+      column-gap: .625rem;
+  } 
+  
+  @media only screen and (min-width: 64em){ 
+    .slide-iv4 { 
+      column-gap: 1.0625rem;
+    } 
+  }     
+  
+  img { 
+      border-style: none;
+  } 
+  
+  img { 
+      max-width: 100%;
+  } 
+  
+  .image-oi9 { 
+      max-height: unset!important;
+  } 
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-9N7Un.style-9N7Un {  
+     width: 50%;  
+  }  
+  #style-gYXif.style-gYXif {  
+     width: 50%;  
+  }  
+  #style-59SZO.style-59SZO {  
+     transform: translate3d(0%, 0px, 0px);  
+      width: 166.667%;  
+  }  
+  #style-rTFk1.style-rTFk1 {  
+     width: 20%;  
+  }  
+  #style-MjJqO.style-MjJqO {  
+     max-height: 420px;  
+      width: 100%;  
+  }  
+  #style-KoZT1.style-KoZT1 {  
+     width: 20%;  
+  }  
+  #style-eV8qo.style-eV8qo {  
+     max-height: 420px;  
+      width: 100%;  
+  }  
+  #style-Dg1h2.style-Dg1h2 {  
+     width: 20%;  
+  }  
+  #style-3YJGD.style-3YJGD {  
+     max-height: 420px;  
+      width: 100%;  
+  }  
+  #style-9iz8a.style-9iz8a {  
+     width: 20%;  
+  }  
+  #style-KkrnV.style-KkrnV {  
+     width: 20%;  
+  }  
+  #style-ExfIp.style-ExfIp {  
+     background: transparent;  
+  }  
+  #style-iHs3P.style-iHs3P {  
+     background: transparent;  
+  }  
+
+  
+  .fle-nn5 { 
+    display: -webkit-box; 
+    display: flex;
+} 
+
+@font-face { 
+  font-family:Gotham;
+  src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Light___501537e6bdec998d611f5c9e12015528.otf);
+  font-weight:400;
+} 
+  body {  
+    font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight:400;
+    text-transform:none;
+    letter-spacing:0;
+    font-size:1rem;
+    line-height:1.15;
+  }  
+@media screen and (min-width: 20em){     
+  body {  
+    font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight:400;
+    text-transform:none;
+    letter-spacing:0;
+    font-size:1rem;
+  }  
+}  
+@media screen and (min-width: 40em){     
+  body {  
+    font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight:400;
+    text-transform:none;
+    letter-spacing:0;
+    font-size:1rem;
+  }  
+}  
+@media screen and (min-width: 64em){     
+  body {  
+    font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight:400;
+    text-transform:none;
+    letter-spacing:0;
+    font-size:1rem;
+  }  
+}  
+@media screen and (min-width: 80em){     
+  body {  
+    font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight:400;
+    text-transform:none;
+    letter-spacing:0;
+    font-size:1rem;
+  }  
+}  
+div { 
+    box-sizing: border-box;
+} 
+
+.fle-tla { 
+    display: -webkit-box; 
+    display: flex;
+} 
+
+.column-mbd { 
+    -webkit-box-orient: vertical; 
+    flex-direction: column;
+} 
+
+.column-mbd { 
+    -webkit-box-direction: normal;
+} 
+
+.w-snq { 
+    width: 100%;
+} 
+
+body { 
+    margin: 0;
+} 
+
+body { 
+    box-sizing: border-box;
+} 
+
+body { 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+body { 
+    font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+} 
+
+body { 
+    font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+    font-weight: 400; 
+    text-transform: none; 
+    letter-spacing: 0;
+} 
+
+body { 
+    font-size: 1rem;
+} 
+
+@media screen and (min-width: 20em){ 
+  body { 
+    font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+    font-weight: 400; 
+    text-transform: none; 
+    letter-spacing: 0;
+  } 
+
+  body { 
+    font-size: 1rem;
+  } 
+}     
+
+@media screen and (min-width: 40em){ 
+  body { 
+    font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+    font-weight: 400; 
+    text-transform: none; 
+    letter-spacing: 0;
+  } 
+
+  body { 
+    font-size: 1rem;
+  } 
+}     
+
+@media screen and (min-width: 64em){ 
+  body { 
+    font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+    font-weight: 400; 
+    text-transform: none; 
+    letter-spacing: 0;
+  } 
+
+  body { 
+    font-size: 1rem;
+  } 
+}     
+
+@media screen and (min-width: 80em){ 
+  body { 
+    font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+    font-weight: 400; 
+    text-transform: none; 
+    letter-spacing: 0;
+  } 
+
+  body { 
+    font-size: 1rem;
+  } 
+}     
+
+html { 
+    line-height: 1.15; 
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
+} 
+
+html { 
+    box-sizing: border-box;
+} 
+
+html { 
+    scroll-behavior: smooth;
+} 
+
+section { 
+    display: block;
+} 
+
+section { 
+    box-sizing: border-box;
+} 
+
+.cdrde { 
+    padding-top: 0;
+} 
+
+.tehre { 
+    margin-top: 0;
+} 
+
+.jfppo { 
+    padding-bottom: 0;
+} 
+
+.mplbv { 
+    margin-bottom: 0;
+} 
+
+.item-fhh { 
+    -webkit-box-align: stretch; 
+    align-items: stretch;
+} 
+
+.justify-jo8 { 
+    -webkit-box-pack: start; 
+    justify-content: flex-start;
+} 
+
+.lgcxk { 
+    padding-right: 0;
+} 
+
+a { 
+    background-color: transparent; 
+    -webkit-text-decoration-skip: objects;
+} 
+
+a { 
+    box-sizing: border-box;
+} 
+
+a { 
+    text-decoration: none;
+} 
+
+.pointer:hover { 
+    cursor: pointer;
+} 
+
+.item-aoe { 
+    -webkit-box-align: center; 
+    align-items: center;
+} 
+
+.justify-v3a { 
+    -webkit-box-pack: center; 
+    justify-content: center;
+} 
+
+.vtex-flex-layout-0-x-7k5 > :not(img)  { 
+    width: 100%;
+} 
+
+.vtex-flex-layout-0-x-7k5 { 
+    justify-content: center;
+} 
+
+.kogcx { 
+    padding: 0;
+} 
+
+.pdapm { 
+    margin: 0;
+} 
+
+.justify-noc { 
+    justify-content: space-around;
+} 
+
+.rel-4p7 { 
+    position: relative;
+} 
+
+.overflow-egm { 
+    overflow: hidden;
+} 
+
+.card-4z2 { 
+    padding: 0 1.25rem;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .card-4z2 { 
+    padding: 0 14%;
+  } 
+}     
+
+.carousel-oo7 { 
+    padding: 4px;
+} 
+
+@media screen and (min-width: 40em){ 
+  .vtex-flex-layout-0-x-7k5:first-child  { 
+    width: 30%!important;
+  } 
+}     
+
+.container-kt9 { 
+    display: flex; 
+    flex-flow: row; 
+    justify-content: space-between; 
+    margin: 7px 8px 0;
+} 
+
+img { 
+    border-style: none;
+} 
+
+img { 
+    max-width: 100%;
+} 
+
+.carousel-qhl { 
+    font-size: 16px; 
+    font-weight: 700; 
+    line-height: .94;
+} 
+
+.carousel-gee { 
+    font-size: 13px; 
+    line-height: 1; 
+    text-decoration: underline;
+} 
+
+@media screen and (min-width: 40em){ 
+  .vtex-flex-layout-0-x-7k5:last-child  { 
+    width: 70%!important;
+  } 
+}     
+
+.carousel-htv { 
+    border-radius: 24px;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-j6fhp.style-j6fhp {  
+   width: 100%;  
+}  
+#style-LUIjC.style-LUIjC {  
+   transform: translate3d(-33.3333%, 0px, 0px);  
+    width: 300%;  
+}  
+#style-xTX26.style-xTX26 {  
+   width: 16.6667%;  
+}  
+#style-AfvfP.style-AfvfP {  
+   width: 16.6667%;  
+}  
+#style-bbmbL.style-bbmbL {  
+   width: 16.6667%;  
+}  
+#style-hK4zr.style-hK4zr {  
+   color: rgb(58, 58, 58);  
+    font-family: Gotham-Bold;  
+}  
+#style-gEpxd.style-gEpxd {  
+   color: rgb(58, 58, 58);  
+    font-family: Gotham;  
+}  
+#style-Dp7ai.style-Dp7ai {  
+   width: 16.6667%;  
+}  
+#style-EoZ7b.style-EoZ7b {  
+   color: rgb(58, 58, 58);  
+    font-family: Gotham-Bold;  
+}  
+#style-DJcfA.style-DJcfA {  
+   color: rgb(58, 58, 58);  
+    font-family: Gotham;  
+}  
+#style-znzoo.style-znzoo {  
+   width: 16.6667%;  
+}  
+#style-ezzRJ.style-ezzRJ {  
+   width: 16.6667%;  
+}  
+
+
+@font-face { 
+  font-family:Avenir;
+  font-weight:black;
+  font-style:normal;
+  src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/c48fb9df25b2ea39a17072514a688c91.ttf?workspace=master) format("truetype");
+} 
+@font-face { 
+  font-family:Avenir;
+  font-weight:thin;
+  font-style:italic;
+  src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/d8489afbaad9e34b5e98d79aa8f4af87.ttf?workspace=master) format("truetype");
+} 
+@font-face { 
+  font-family:Avenir;
+  font-weight:light;
+  font-style:normal;
+  src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/052898610741607c48126f10578dea59.ttf?workspace=master) format("truetype");
+} 
+@font-face { 
+  font-family:Avenir;
+  font-weight:medium;
+  font-style:normal;
+  src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/318a4707b226411bd28aae1baf4c007c.ttf?workspace=master) format("truetype");
+} 
+@font-face { 
+  font-family:Avenir;
+  font-weight:bold;
+  font-style:normal;
+  src:url(https://devlyn.vtexassets.com/_v/public/vtex.styles-graphql/v1/font/5901e423d5d914e5558268060e13d17c.ttf?workspace=master) format("truetype");
+} 
+@font-face { 
+  font-family:Avenir-Book;
+  src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Book___8b7a472baf38d0cfb3eb56a96bbce29f.woff2),url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Book___995b34ab56b423abffe48e64bf8b8df1.ttf);
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Avenir-Medium;
+  src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Medium___78b3d71c2942ccf9c410893bf7c00bf0.woff2),url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Avenir-Medium___7d635ea94b4460e86cd678e9e754a643.ttf);
+  font-display:swap;
+} 
+@font-face { 
+  font-family:Gotham;
+  src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Light___501537e6bdec998d611f5c9e12015528.otf);
+  font-weight:400;
+} 
+@font-face { 
+  font-family:Gotham-Bold;
+  src:url(https://devlyn.vtexassets.com/assets/vtex/assets-builder/devlyn.store-theme/11.2.4/fonts/Gotham-Bold___5d6f50ed2dde0e4ad455448f896c09f0.otf);
+  font-weight:400;
+} 
+  body {  
+    font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight:400;
+    text-transform:none;
+    letter-spacing:0;
+    font-size:1rem;
+    line-height:1.15;
+  }  
+@media screen and (min-width: 20em){     
+  body {  
+    font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight:400;
+    text-transform:none;
+    letter-spacing:0;
+    font-size:1rem;
+  }  
+}  
+@media screen and (min-width: 40em){     
+  body {  
+    font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight:400;
+    text-transform:none;
+    letter-spacing:0;
+    font-size:1rem;
+  }  
+}  
+@media screen and (min-width: 64em){     
+  body {  
+    font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight:400;
+    text-transform:none;
+    letter-spacing:0;
+    font-size:1rem;
+  }  
+}  
+@media screen and (min-width: 80em){     
+  body {  
+    font-family:Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight:400;
+    text-transform:none;
+    letter-spacing:0;
+    font-size:1rem;
+  }  
+}  
+div { 
+    box-sizing: border-box;
+} 
+
+.fle-ir8 { 
+    display: -webkit-box; 
+    display: flex;
+} 
+
+.column-fso { 
+    -webkit-box-orient: vertical; 
+    flex-direction: column;
+} 
+
+.column-fso { 
+    -webkit-box-direction: normal;
+} 
+
+.w-itw { 
+    width: 100%;
+} 
+
+.bg-ort { 
+    background-color: #fff;
+} 
+
+body { 
+    margin: 0;
+} 
+
+body { 
+    box-sizing: border-box;
+} 
+
+body { 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+body { 
+    font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+} 
+
+body { 
+    font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+    font-weight: 400; 
+    text-transform: none; 
+    letter-spacing: 0;
+} 
+
+body { 
+    font-size: 1rem;
+} 
+
+@media screen and (min-width: 20em){ 
+  body { 
+    font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+    font-weight: 400; 
+    text-transform: none; 
+    letter-spacing: 0;
+  } 
+
+  body { 
+    font-size: 1rem;
+  } 
+}     
+
+@media screen and (min-width: 40em){ 
+  body { 
+    font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+    font-weight: 400; 
+    text-transform: none; 
+    letter-spacing: 0;
+  } 
+
+  body { 
+    font-size: 1rem;
+  } 
+}     
+
+@media screen and (min-width: 64em){ 
+  body { 
+    font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+    font-weight: 400; 
+    text-transform: none; 
+    letter-spacing: 0;
+  } 
+
+  body { 
+    font-size: 1rem;
+  } 
+}     
+
+@media screen and (min-width: 80em){ 
+  body { 
+    font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+    font-weight: 400; 
+    text-transform: none; 
+    letter-spacing: 0;
+  } 
+
+  body { 
+    font-size: 1rem;
+  } 
+}     
+
+html { 
+    line-height: 1.15; 
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
+} 
+
+html { 
+    box-sizing: border-box;
+} 
+
+html { 
+    scroll-behavior: smooth;
+} 
+
+section { 
+    display: block;
+} 
+
+section { 
+    box-sizing: border-box;
+} 
+
+.annee { 
+    padding-left: .5rem; 
+    padding-right: .5rem;
+} 
+
+.tskfi { 
+    max-width: 96rem;
+} 
+
+.cen-iih { 
+    margin-left: auto;
+} 
+
+.cen-iih { 
+    margin-right: auto;
+} 
+
+@media screen and (min-width: 40em){ 
+  .ph5-tae { 
+    padding-left: 1rem; 
+    padding-right: 1rem;
+  } 
+}     
+
+@media screen and (min-width: 80em){ 
+  .ph2-xga { 
+    padding-left: .25rem; 
+    padding-right: .25rem;
+  } 
+}     
+
+.container-ib3  { 
+    max-width: 120rem; 
+    padding: 0;
+} 
+
+.footer-6ep { 
+    background-color: rgba(126,201,193,.1); 
+    margin-top: 2.25rem; 
+    padding: 1.8125rem 0 0;
+} 
+
+@media screen and (min-width: 40em){ 
+  .footer-6ep { 
+    background-color: rgba(141,198,192,.1); 
+    margin-top: 3.9375rem; 
+    padding: 0;
+  } 
+}     
+
+.footer-nlz { 
+    background-color: #fff; 
+    padding: .6875rem 0 1.125rem;
+} 
+
+@media only screen and (min-width: 80rem){ 
+  .footer-nlz { 
+    padding: 1.0625rem 1% .8125rem 3%;
+  } 
+}     
+
+.sygrj { 
+    padding-top: 0;
+} 
+
+.pcvwy { 
+    margin-top: 0;
+} 
+
+.bvpnk { 
+    padding-bottom: 0;
+} 
+
+.henre { 
+    margin-bottom: 0;
+} 
+
+.item-wwn { 
+    -webkit-box-align: stretch; 
+    align-items: stretch;
+} 
+
+.justify-wdc { 
+    -webkit-box-pack: start; 
+    justify-content: flex-start;
+} 
+
+.footer-nlz .container-ib3  { 
+    max-width: 120rem;
+} 
+
+.pdoos { 
+    padding-right: 0;
+} 
+
+li { 
+    box-sizing: border-box;
+} 
+
+.list-62h { 
+    list-style-type: none;
+} 
+
+.footer-bkt { 
+    justify-content: center;
+} 
+
+@media screen and (min-width: 40em){ 
+  .footer-bkt { 
+    padding: 4rem 3.125rem 0;
+  } 
+}     
+
+@media only screen and (min-width: 64em){ 
+  .footer-bkt { 
+    justify-content: space-between; 
+    padding: 4rem 4.375rem 2rem;
+  } 
+}     
+
+.footer-s5o .container-ib3  { 
+    padding: 0;
+} 
+
+.footer-s5o { 
+    padding: 0 3.0625rem;
+} 
+
+@media screen and (min-width: 40em){ 
+  .footer-s5o { 
+    max-width: 1280px; 
+    margin: 0 auto;
+  } 
+}     
+
+@media only screen and (min-width: 80rem){ 
+  .footer-s5o { 
+    padding: 0;
+  } 
+
+  .footer-sjk :nth-child(3n)  { 
+    margin-left: auto;
+  } 
+}     
+
+.nmavp { 
+    margin-left: 1.5rem; 
+    margin-right: 1.5rem;
+} 
+
+.fedoo { 
+    padding-left: 0;
+} 
+
+.onekw { 
+    margin-left: 0;
+} 
+
+.svjea { 
+    margin-right: 0;
+} 
+
+.h-n92 { 
+    height: 100%;
+} 
+
+@media screen and (min-width: 40em){ 
+  .footer-siw { 
+    padding-left: 3.125rem;
+  } 
+}     
+
+@media only screen and (min-width: 64em){ 
+  .footer-siw { 
+    padding-left: 100px;
+  } 
+}     
+
+@media only screen and (min-width: 80rem){ 
+  .footer-siw { 
+    padding-left: 0;
+  } 
+}     
+
+.item-3y4 { 
+    -webkit-box-align: start; 
+    align-items: flex-start;
+} 
+
+.c-on-a1t { 
+    color: #3f3f40;
+} 
+
+.delmi { 
+    text-align: left;
+} 
+
+.body-fz3 { 
+    font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+    font-weight: 400; 
+    text-transform: none; 
+    letter-spacing: 0;
+} 
+
+.body-fz3 { 
+    font-size: 1rem;
+} 
+
+.container-ov7 { 
+    place-content: center; 
+    width: 100%;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .container-ov7 { 
+    place-items: center;
+  } 
+}     
+
+a { 
+    background-color: transparent; 
+    -webkit-text-decoration-skip: objects;
+} 
+
+a { 
+    box-sizing: border-box;
+} 
+
+a { 
+    text-decoration: none;
+} 
+
+.no-2x7 { 
+    text-decoration: none;
+} 
+
+.poi-dcm:hover { 
+    cursor: pointer;
+} 
+
+.footer-ocj { 
+    align-self: center;
+} 
+
+.justify-lhl { 
+    -webkit-box-pack: justify; 
+    justify-content: space-between;
+} 
+
+.now-xn2 { 
+    white-space: nowrap;
+} 
+
+.footer-12g { 
+    padding: 0 3.0625rem;
+} 
+
+@media only screen and (min-width: 80rem){ 
+  .footer-12g { 
+    padding: 0;
+  } 
+}     
+
+.container-xcp { 
+    align-items: center;
+} 
+
+.footer-1st { 
+    margin: 0 0 .5rem;
+} 
+
+p { 
+    box-sizing: border-box;
+} 
+
+.lh-vh8 { 
+    line-height: 1.5;
+} 
+
+.footer-y9j { 
+    margin: 1.125rem 0 0; 
+    font-size: .75rem; 
+    text-align: center; 
+    color: #2b2b2b;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-y9j { 
+    font-size: .625rem; 
+    text-align: left; 
+    margin: 0;
+  } 
+}     
+
+.vtex-flex-layout-0-x-fjl > :not(img)  { 
+    width: 100%;
+} 
+
+.vtex-flex-layout-0-x-fjl { 
+    justify-content: center;
+} 
+
+@media screen and (min-width: 40em){ 
+  .vtex-flex-layout-0-x-fjl:first-child  { 
+    width: 30%!important;
+  } 
+}     
+
+.container-ib3  { 
+    padding: 0; 
+    max-width: 1920px;
+} 
+
+.footer-idy { 
+    column-gap: 1.25rem;
+} 
+
+@media screen and (min-width: 40em){ 
+  .footer-idy { 
+    max-width: 1280px; 
+    margin: 0 auto;
+  } 
+
+  .footer-idy { 
+    justify-content: center; 
+    padding-left: 37%;
+  } 
+}     
+
+.footer-8rh { 
+    justify-content: center;
+} 
+
+@media only screen and (min-width: 80rem){ 
+  .footer-8rh { 
+    column-gap: .5rem;
+  } 
+}     
+
+.footer-dko { 
+    justify-content: center; 
+    align-items: center;
+} 
+
+@media screen and (min-width: 40em){ 
+  .footer-53w { 
+    column-gap: 3.5rem; 
+    padding-bottom: 2rem;
+  } 
+
+  .footer-53w .vtex-flex-layout-0-x-fjl:nth-child(n)  { 
+    width: 33%!important;
+  } 
+
+  .footer-53w .vtex-flex-layout-0-x-fjl:nth-child(2n)  { 
+    width: 44%!important;
+  } 
+}     
+
+.footer-vhw { 
+    margin: 0; 
+    font-size: 13px; 
+    color: #2b2b2b; 
+    line-height: normal; 
+    letter-spacing: normal;
+} 
+
+.footer-7k6 { 
+    margin: 2.25rem 0 .8125rem; 
+    font-size: 13px; 
+    color: #2b2b2b; 
+    line-height: normal; 
+    letter-spacing: normal; 
+    font-family: Gotham-Bold,Gotham;
+} 
+
+@media screen and (min-width: 40em){ 
+  .footer-7k6 { 
+    margin: 0 0 1.25rem;
+  } 
+}     
+
+@media only screen and (min-width: 64em){ 
+  .footer-vhw,.footer-7k6 { 
+    font-size: 17px;
+  } 
+}     
+
+@media screen and (min-width: 40em){ 
+  .footer-5k3 .footer-pop .vtex-flex-layout-0-x-fjl  { 
+    width: 100%!important; 
+    max-width: 316px;
+  } 
+}     
+
+img { 
+    border-style: none;
+} 
+
+img { 
+    max-width: 100%;
+} 
+
+.footer-bhk { 
+    height: 1.5rem; 
+    margin-right: auto;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-bhk { 
+    height: 2.125rem; 
+    margin-right: auto; 
+    padding-left: 1.875rem;
+  } 
+}     
+
+.image-cbo { 
+    max-height: unset!important;
+} 
+
+.footer-sv4 { 
+    padding-top: 1.3125rem;
+} 
+
+@media screen and (min-width: 40em){ 
+  .footer-sv4 { 
+    padding-top: 0;
+  } 
+}     
+
+.footer-kfj { 
+    width: 5.6875rem; 
+    height: 3.9375rem;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-kfj { 
+    width: 8.25rem; 
+    height: 5.75rem;
+  } 
+}     
+
+.footer-d2a { 
+    height: 2.5rem;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-d2a { 
+    height: 2.5rem;
+  } 
+}     
+
+.footer-5dc { 
+    width: 1rem; 
+    height: 1rem; 
+    filter: brightness(0); 
+    padding-right: .625rem;
+} 
+
+.container-1sl { 
+    align-items: center;
+} 
+
+form { 
+    box-sizing: border-box;
+} 
+
+.footer-a75 { 
+    padding: 0 0 25px; 
+    border-top: 1px solid #2b2b2b; 
+    margin: 23px 0 11px;
+} 
+
+.justify-rh1 { 
+    -webkit-box-pack: center; 
+    justify-content: center;
+} 
+
+.rhbpg { 
+    border-width: .125rem;
+} 
+
+.rel-stc { 
+    position: relative;
+} 
+
+.footer-9gj { 
+    height: 1.1875rem; 
+    padding-left: .5rem;
+} 
+
+.footer-4wl { 
+    padding: .75rem 0 .25rem .1875rem; 
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    color: #606060;
+} 
+
+.footer-6qh { 
+    border-bottom: 1px solid #2b2b2b;
+} 
+
+@media screen and (min-width: 40em){ 
+  .footer-4wl { 
+    padding: 1.1875rem 0 .375rem .3125rem;
+  } 
+}     
+
+@media only screen and (min-width: 64em){ 
+  .footer-4wl { 
+    min-width: 20rem;
+  } 
+}     
+
+[hidden] { 
+    display: none;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-vhw { 
+    font-size: 17px;
+  } 
+}     
+
+.footer-woq { 
+    padding: 1rem 0;
+} 
+
+.footer-p8d { 
+    margin: 0; 
+    font-size: 12px; 
+    color: #2b2b2b; 
+    line-height: normal; 
+    letter-spacing: normal; 
+    font-family: Gotham-Bold,Gotham;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-p8d { 
+    font-size: 15px;
+  } 
+}     
+
+.footer-852 { 
+    font-size: .75rem; 
+    text-align: center; 
+    color: #2b2b2b; 
+    margin: 0;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-852 { 
+    font-size: .75rem; 
+    padding: 0 0 0 1rem;
+  } 
+}     
+
+@media screen and (min-width: 40em){ 
+  .footer-z9b { 
+    padding: 0 0 .375rem .3125rem;
+  } 
+}     
+
+.vtex-disclosure-layout-1-x-content--footer-menu--visible { 
+    border-bottom: 1px solid #2b2b2b;
+} 
+
+nav { 
+    display: block;
+} 
+
+nav { 
+    box-sizing: border-box;
+} 
+
+.menu-3lo { 
+    display: flex;
+} 
+
+.menu-3lo { 
+    width: 100%;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .menu-3lo { 
+    width: auto;
+  } 
+}     
+
+svg:not(:root) { 
+    overflow: hidden;
+} 
+
+.footer-sw5 { 
+    margin: 0; 
+    font-size: 13px; 
+    color: #2b2b2b; 
+    line-height: normal; 
+    letter-spacing: normal;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-sw5,.footer-6i5 { 
+    font-size: 17px;
+  } 
+}     
+
+.footer-zwd { 
+    text-decoration: underline;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-sw5 { 
+    font-size: 17px;
+  } 
+}     
+
+.footer-bzv { 
+    margin: 1.0625rem 0 .375rem; 
+    font-size: 13px; 
+    color: #2b2b2b; 
+    line-height: normal; 
+    letter-spacing: normal; 
+    font-family: Gotham-Bold,Gotham;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-bzv { 
+    font-size: 17px;
+  } 
+}     
+
+.container-s43 :first-child  { 
+    width: inherit!important;
+} 
+
+ul { 
+    box-sizing: border-box;
+} 
+
+.iwldo { 
+    margin-top: 0; 
+    margin-bottom: 0;
+} 
+
+.footer-s35 { 
+    padding: 0 0 .5rem;
+} 
+
+.menu-3er { 
+    width: 100%;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .menu-3er { 
+    width: auto;
+  } 
+}     
+
+.footer-jz5 { 
+    padding: 0;
+} 
+
+.footer-p6a { 
+    font-family: Gotham-Bold,Gotham;
+} 
+
+.footer-p6a { 
+    margin: 0; 
+    font-size: 13px; 
+    color: #2b2b2b; 
+    line-height: normal; 
+    letter-spacing: normal;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-p6a { 
+    font-size: 17px;
+  } 
+}     
+
+button { 
+    font-family: sans-serif; 
+    font-size: 100%; 
+    line-height: 1.15; 
+    margin: 0;
+} 
+
+button { 
+    overflow: visible;
+} 
+
+button { 
+    text-transform: none;
+} 
+
+button { 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+button { 
+    font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+} 
+
+[type="submit"],button { 
+    -webkit-appearance: button;
+} 
+
+.bg-action-bte { 
+    background-color: #00a2b0;
+} 
+
+.ednef { 
+    border-style: solid; 
+    border-width: 1px;
+} 
+
+.b--action-6bg { 
+    border-color: #00a2b0;
+} 
+
+.qfigb { 
+    border-radius: .25rem;
+} 
+
+.fqdle { 
+    padding: 0;
+} 
+
+.min-h-hbo { 
+    min-height: 2.5rem; 
+    box-sizing: border-box;
+} 
+
+.c-on-action-1o4 { 
+    color: #fff;
+} 
+
+.lh-vo4 { 
+    line-height: 1;
+} 
+
+.v-2lm { 
+    vertical-align: middle;
+} 
+
+.t-7vo { 
+    font-size: 1rem;
+} 
+
+.t-7vo { 
+    font-family: Gotham,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+    font-weight: 500; 
+    text-transform: uppercase; 
+    letter-spacing: 0;
+} 
+
+.gmhrb { 
+    font-weight: 500;
+} 
+
+.form-wbo .button-h36  { 
+    font-family: Avenir-Book; 
+    font-size: 14px; 
+    width: 60%; 
+    border-radius: 8px; 
+    background-color: #00a2b0; 
+    border-color: #00a2b0;
+} 
+
+.footer-jz5 .button-h36  { 
+    border: 0; 
+    background-color: transparent; 
+    min-height: unset; 
+    border-top: 2.1px solid #2b2b2b; 
+    border-bottom: 2.1px solid #2b2b2b; 
+    border-right: 2.1px solid #2b2b2b; 
+    border-radius: 0 50px 50px 0; 
+    padding: 3px;
+} 
+
+.hover-c-on-action-x48:hover { 
+    color: #fff;
+} 
+
+.hover-bg-action-t58:hover { 
+    background-color: #00a2b0;
+} 
+
+.hover-b--action-94h:hover { 
+    border-color: #00a2b0;
+} 
+
+.ohsih { 
+    padding-top: .25rem; 
+    padding-bottom: .25rem;
+} 
+
+.footer-kvo { 
+    margin: 0; 
+    padding: .25rem 0 .25rem .1875rem;
+} 
+
+@media screen and (min-width: 40em){ 
+  .footer-kvo { 
+    margin: 0; 
+    padding: .75rem 0 .75rem .3125rem;
+  } 
+}     
+
+.b--muted-7pl { 
+    border-color: #e3e4e6;
+} 
+
+.b--gz2 { 
+    border-style: solid;
+} 
+
+.row-c5v { 
+    -webkit-box-direction: normal;
+} 
+
+.row-c5v { 
+    -webkit-box-orient: horizontal; 
+    flex-direction: row;
+} 
+
+.h-seo { 
+    height: 2.5rem; 
+    box-sizing: border-box;
+} 
+
+.overflow-lmc { 
+    overflow: hidden;
+} 
+
+.footer-ltd .input-fqg  { 
+    border: 0; 
+    height: 33px; 
+    border-top: 2.1px solid #2b2b2b; 
+    border-bottom: 2.1px solid #2b2b2b; 
+    border-left: 2.1px solid #2b2b2b; 
+    border-radius: 50px 0 0 50px;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-ltd .input-fqg  { 
+    height: 40px;
+  } 
+}     
+
+.hover-b--muted-elr:hover { 
+    border-color: #cacbcc;
+} 
+
+.sayyw { 
+    padding-left: 1.5rem; 
+    padding-right: 1.5rem;
+} 
+
+.item-rwo { 
+    -webkit-box-align: center; 
+    align-items: center;
+} 
+
+.footer-jz5 .button-ya7  { 
+    color: #fff; 
+    font-size: 10px; 
+    line-height: normal; 
+    letter-spacing: normal; 
+    padding: .3125rem .6875rem .3125rem .8125rem!important; 
+    white-space: nowrap; 
+    text-transform: capitalize; 
+    background-color: #2b2b2b; 
+    border-radius: 50px;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-jz5 .button-ya7  { 
+    font-size: 14px;
+  } 
+}     
+
+input { 
+    font-family: sans-serif; 
+    font-size: 100%; 
+    line-height: 1.15; 
+    margin: 0;
+} 
+
+input { 
+    overflow: visible;
+} 
+
+input { 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+input { 
+    font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+} 
+
+.jygiv { 
+    border-style: none; 
+    border-width: 0;
+} 
+
+.flihs { 
+    margin: 0;
+} 
+
+.wpgnx { 
+    padding-left: 1rem; 
+    padding-right: 1rem;
+} 
+
+.outline-yof { 
+    outline: 0;
+} 
+
+.vtex-styleguide-9-x-hop { 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+} 
+
+.vtex-styleguide-9-x-zmo { 
+    font-family: Avenir-Medium; 
+    font-size: 16px;
+} 
+
+.box-v7w,input[type="email"] { 
+    box-sizing: border-box;
+} 
+
+.footer-ltd .input-zdk  { 
+    color: #2b2b2b; 
+    font-size: 10px; 
+    line-height: normal; 
+    letter-spacing: normal; 
+    border: 0; 
+    background-color: transparent; 
+    padding: .5rem 0 .4375rem 1rem;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-ltd .input-zdk  { 
+    font-size: 14px;
+  } 
+}     
+
+.footer-qzd { 
+    white-space: pre-wrap; 
+    font-size: 12px; 
+    color: #2b2b2b; 
+    line-height: normal; 
+    letter-spacing: normal;
+} 
+
+@media only screen and (min-width: 64em){ 
+  .footer-qzd { 
+    font-size: 14px;
+  } 
+}     
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-rCajv.style-rCajv {  
+   width: auto;  
+}  
+#style-M34rE.style-M34rE {  
+   height: 100%;  
+}  
+#style-Aqkde.style-Aqkde {  
+   width: 50%;  
+}  
+#style-DZkMo.style-DZkMo {  
+   width: 50%;  
+}  
+#style-mSq4z.style-mSq4z {  
+   height: 100%;  
+}  
+#id--7ns.style-o7Arq {  
+   display: none;  
+}  
+#id--53t.style-Z1Kgk {  
+   display: none;  
+}  
+#id--ot5.style-6wc6E {  
+   display: none;  
+}  
+#id--nx9.style-OYPpc {  
+   display: none;  
+}  
+#id--i36.style-5n5EC {  
+   display: none;  
+}  
+#style-ncqlh.style-ncqlh {  
+   height: 100%;  
+}  
+#style-ZEGwh.style-ZEGwh {  
+   width: auto;  
+}  
+#style-lJIoA.style-lJIoA {  
+   width: auto;  
+}  
+#style-lL4in.style-lL4in {  
+   height: 92px;  
+}  
+#style-H3Oet.style-H3Oet {  
+   width: auto;  
+}  
+#style-rNY4w.style-rNY4w {  
+   height: auto;  
+}  
+#style-ikTxV.style-ikTxV {  
+   height: auto;  
+}  
+#style-Ac9BG.style-Ac9BG {  
+   width: auto;  
+}  
+#style-kSfhT.style-kSfhT {  
+   width: auto;  
+}  
+#style-bwG1g.style-bwG1g {  
+   height: auto;  
+}  
+#style-Zb3Zn.style-Zb3Zn {  
+   width: auto;  
+}  
+#style-epFfK.style-epFfK {  
+   width: auto;  
+}  
+#style-g3zfG.style-g3zfG {  
+   height: auto;  
+}  
+#style-EEXGo.style-EEXGo {  
+   width: auto;  
+}  
+#style-ylVO1.style-ylVO1 {  
+   width: auto;  
+}  
+#style-VBTsL.style-VBTsL {  
+   height: auto;  
+}  
+#style-VHmS2.style-VHmS2 {  
+   width: auto;  
+}  
+#style-h88ST.style-h88ST {  
+   width: auto;  
+}  
+#style-kow4O.style-kow4O {  
+   height: auto;  
+}  
+#style-8c1FA.style-8c1FA {  
+   width: auto;  
+}  
+#style-ChQEz.style-ChQEz {  
+   height: auto;  
+}  
+#style-6yk1k.style-6yk1k {  
+   width: auto;  
+}  
+#style-rws1l.style-rws1l {  
+   width: auto;  
+}  
+#style-72EKv.style-72EKv {  
+   width: auto;  
+}  
+#style-YnYxl.style-YnYxl {  
+   height: auto;  
+}  
+#style-BAOd1.style-BAOd1 {  
+   width: 100%;  
+}  
+#style-776Q2.style-776Q2 {  
+   width: auto;  
+}  
+#style-dIEi3.style-dIEi3 {  
+   width: auto;  
+}  
+#style-TedpU.style-TedpU {  
+   padding-top: 0.25em;  
+    padding-bottom: 0.32em;  
+}  
+#style-Z5AJm.style-Z5AJm {  
+   width: auto;  
+}  
+#style-RaDfM.style-RaDfM {  
+   height: 100%;  
+}  
+#style-q9MUH.style-q9MUH {  
+   width: 14%;  
+}  
+#style-MeGo5.style-MeGo5 {  
+   width: 14%;  
+}  
+#style-5LG94.style-5LG94 {  
+   width: 14%;  
+}  
+#style-3VaSP.style-3VaSP {  
+   width: 14%;  
+}  
+#style-n4TMi.style-n4TMi {  
+   width: 14%;  
+}  
+#style-1sBcJ.style-1sBcJ {  
+   width: 14%;  
+}  
+#style-qCaDs.style-qCaDs {  
+   width: 14%;  
+}  
+#style-cFCDS.style-cFCDS {  
+   width: auto;  
+}  
+#style-GDsFo.style-GDsFo {  
+   height: 100%;  
+}  
+#style-56bBW.style-56bBW {  
+   width: auto;  
+}  
+#style-M9eIq.style-M9eIq {  
+   width: auto;  
+}  
+#style-Upma5.style-Upma5 {  
+   width: auto;  
+}  
+#style-CycYV.style-CycYV {  
+   width: auto;  
+}  
