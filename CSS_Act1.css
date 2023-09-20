@@ -1,0 +1,31 @@
+/* Estilo para todos los elementos h2 */
+h2 {
+    color: blue;
+    font-size: 24px;
+}
+
+/* Estilo para elementos con la clase "nav" */
+.nav {
+    background-color: #333;
+    color: white;
+}
+
+/* Estilo para el elemento con el ID "header" */
+#header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+/* Estilo para li elementos que están inmediatamente después de un "a" en la lista de navegación */
+a + li {
+    margin-left: 10px;
+}
+p::after{
+    content: "Oli";
+    justify-content: end;
+}
+/* Estilo para th elementos que son hijos directos de table */
+table > tr > th {
+    background-color: #6fd83e;
+    font-weight: bold;
+}
